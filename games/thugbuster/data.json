@@ -2,7 +2,7 @@
   "game": {
     "title": "Title",
     "year": "Year",
-    "video": "VideoURL",
+    "video": "https://www.youtube.com/watch?v=7tMMI5IIKNs",
     "technology": "Technology",
     "awards": "Awards",
     "image1": "games/GAMENAMEHERE/images/image1",

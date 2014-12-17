@@ -1,17 +1,17 @@
 {
   "game": {
-    "title": "Title",
-    "year": "Year",
-    "video": "VideoURL",
-    "technology": "Technology",
-    "awards": "Awards",
-    "image1": "games/GAMENAMEHERE/images/image1",
-    "image2": "games/GAMENAMEHERE/images/image2",
-    "image3": "games/GAMENAMEHERE/images/image3",
+    "title": "Galactic Planet Wrangler",
+    "year": "2014",
+    "video": "https://www.youtube.com/watch?v=hRXjoLWrguw",
+    "technology": "Unity",
+    "awards": "294th out of 1045 entries to Ludum Dare 30 Jam",
+    "image1": "games/galacticplanetwrangler/images/image1",
+    "image2": "games/galacticplanetwrangler/images/image2",
+    "image3": "games/galacticplanetwrangler/images/image3",
     "overview": "Overview",
-    "platform": "Platform",
-    "contribution": "Contribution",
-    "download": "DownloadURL",
-    "downloadtext": "Download Text"
+    "platform": "Web",
+    "contribution": "Art and some code",
+    "download": "http://gamejolt.com/games/arcade/galactic-planet-wrangler/33164/",
+    "downloadtext": "Play it here"
   }
 }

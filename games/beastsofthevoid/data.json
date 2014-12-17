@@ -1,17 +1,17 @@
 {
   "game": {
-    "title": "Title",
-    "year": "Year",
-    "video": "VideoURL",
-    "technology": "Technology",
-    "awards": "Awards",
-    "image1": "games/GAMENAMEHERE/images/image1",
-    "image2": "games/GAMENAMEHERE/images/image2",
-    "image3": "games/GAMENAMEHERE/images/image3",
+    "title": "Beasts of the Void",
+    "year": "2014-Now",
+    "video": "https://www.youtube.com/watch?v=cgpfjmh2Oo0",
+    "technology": "Unity",
+    "awards": "",
+    "image1": "games/beastsofthevoid/images/image1",
+    "image2": "games/beastsofthevoid/images/image2",
+    "image3": "games/beastsofthevoid/images/image3",
     "overview": "Overview",
-    "platform": "Platform",
-    "contribution": "Contribution",
-    "download": "DownloadURL",
-    "downloadtext": "Download Text"
+    "platform": "PC (Possible fufture release of Mac, Linux, and consoles)",
+    "contribution": "All",
+    "download": "",
+    "downloadtext": ""
   }
 }
