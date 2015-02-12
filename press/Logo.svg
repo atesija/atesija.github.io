@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 1"
+   sodipodi:docname="Logo.svg"
    inkscape:export-filename="C:\Users\RPM\Desktop\Logo.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="98.194212"
-     inkscape:cy="417.73833"
+     inkscape:zoom="1.979899"
+     inkscape:cx="422.07832"
+     inkscape:cy="452.58127"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -158,5 +158,47 @@
        d="m 240,782.36218 90,0 -10,10 -90,0 z"
        id="path2989-9-1"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff8011;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 370,682.36218 20,20 110,-110 -20,-20 z"
+       id="path2983-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\RPM\Desktop\Projects\GithubWebsite\jettison\images\ateshlogo.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
+    <path
+       style="fill:#366136;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 370,652.36218 20,0 50,-50 0,100 10,-10 0,-120 z"
+       id="path2985-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\RPM\Desktop\Projects\GithubWebsite\jettison\images\ateshlogo.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
+    <path
+       style="fill:#366136;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 410,622.36218 90,0 -10,10 -90,0 z"
+       id="path2989-40"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\RPM\Desktop\Projects\GithubWebsite\jettison\images\ateshlogo.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
+    <path
+       style="fill:#7eae53;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 360,642.36218 20,0 50,-50 0,100 10,-10 0,-120 z"
+       id="path2985-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\RPM\Desktop\Projects\GithubWebsite\jettison\images\ateshlogo.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
+    <path
+       style="fill:#7eae53;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 400,612.36218 90,0 -10,10 -90,0 z"
+       id="path2989-7-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\RPM\Desktop\Projects\GithubWebsite\jettison\images\ateshlogo.png"
+       inkscape:export-xdpi="270"
+       inkscape:export-ydpi="270" />
   </g>
 </svg>
