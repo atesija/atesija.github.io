@@ -8,22 +8,23 @@
 				src: url(VeraBd.ttf);
 			}
 			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 120px; font-style: normal; color: #7eae53; text-shadow: 5px 5px #407440; }
-			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #7eae53; }
+			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #000000; text-align: left;}
 			img.screenshot{ width: 45%; padding-left: 10px; padding-right: 10px; }
 			img.screenshotWide{ width: 90%; padding-left: 10px; padding-right: 10px; }
 			img.screenshotTall{ width: 25%; padding-left: 10px; padding-right: 10px; }
 			img.store{ padding-left: 10px; padding-right: 10px; }
 			div{ padding-top: 15px; padding-bottom: 15px;}
+			div.textbox{ background-image: url("images/textbox.png"); background-repeat: no-repeat; background-size: cover;}
 		</style>
 	</head>
 	<body bgcolor="#522252">
-		<div align="center">
+		<div align="center" id="titlediv">
 			<img id="title" src="images/title.png" width="80%" height="10%">
 		</div>
-		<div align="center">
+		<div align="center" id="trailerdiv">
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/VOfujvTe9yI" frameborder="0" allowfullscreen></iframe>
 		</div>
-		<div align="center">
+		<div align="center" id="linkdiv">
 			<a href="https://play.google.com/store">
 				<img id="androidStore" src="images/android.png" width="172px" height="60px" class="store">
 			</a>
@@ -31,14 +32,14 @@
 				<img id="iosStore" src="images/ios.png" width="203px" height="60px" class="store">
 			</a>
 		</div>
-		<div align="center">
+		<div align="center" id="screenshotdiv">
 			<img id="drop" src="images/screenshots/drop.png"  class="screenshot">
 			<img id="zap" src="images/screenshots/zap.png"  class="screenshot">
 			<br>
 			<img id="long" src="images/screenshots/long.png"  class="screenshotWide">
 			<!--<br><img id="rise" src="images/screenshots/rise.png"  class="screenshotTall">-->
 		</div>
-		<div align="center">
+		<div align="center" id="logodiv">
 			<img id="logo" src="images/ateshlogo.png" width="5%" height="5%">
 			<br>
 			<ap>ATesh Games L.L.C.</ap>
