@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="160" height="100" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="tileset" tilewidth="8" tileheight="8">
+  <image source="../../../Jettison/Jettison/Assets/Images/tileset.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="160" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6HzWv8e9p0ISFg1VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdX3AOTRLOk=
+  </data>
+ </layer>
+ <layer name="foreground" width="160" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0kENAkEUQLF/IFhg8YAF8AD+xTASlmTIu/RQBz1m5gAAAIg8lwds9Jrz/+7LFTa6jX90/KPkHyX/KPlHyT9K/lHyj5J/lPyj5B8l/yj5R8k/Sv5R8o+Sf5T8o+QfJf8o+UfJP0r+UfKPkn+U/KPkHyX/KPlHyT9K/lHyj5J/lPyj5B8l/yj5R8k/Sv5R8o+Sf5T8o+QfJf8o+UfJP0r+UfKPkn+U/KPkHyX/KPlHyT9K/lHyj5J/lPyj5B8l/yj5R8k/Sv5R8o+Sf5T8o+QfJf8o+UfJP0r+UfKPkn+U/KPkHyX/KPlHyT9K/lHyj5J/lPyj5B8l/yj5R8k/Sv5R+uXfe7nARp85/w8AAOAfvvYySR0=
+  </data>
+ </layer>
+</map>
