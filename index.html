@@ -13,10 +13,12 @@
 				src: url(font/VeraBd.ttf);
 			}
 
-			div.title{ width: 100%; background: #333333; padding: 10px 0px 10px 0px; display: block; text-align: center; margin: 0 auto;}
+			body{margin: 0;}
+
+			div.title{ width: 100%; background: #333333; padding: 10px 0px 30px 0px; display: block; text-align: center; margin: 0 auto;}
 			div.game{ width: 50%; background: #EEEEEE; padding: 20px 20px 20px 20px; display: block; margin: 0 auto; overflow: hidden;}
-			div.gameScreenshots{ width: 39%; background: #aa2a44; display: block; position: relative; float: left;}
-			div.gameInfo{ width: 59%; background: #523674; display: block; position: relative; float: right;}
+			div.gameScreenshots{ width: 39%; display: block; position: relative; float: left;}
+			div.gameInfo{ width: 59%; display: block; position: relative; float: right;}
 			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto;}
 			div.space{padding: 70px; display: block; margin: 0 auto;}
 
@@ -24,11 +26,13 @@
 			a2{ font-family: "Vera", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #FFFFFF; text-shadow: 3px 3px #111111; }
 			a3{ font-family: "Vera", "Verdana", "Consolas"; font-size: 18px; font-style: normal; color: #FFFFFF; text-shadow: 2px 2px #111111; }
 		
-			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal;padding: 2px 2px 2px 2px;}
-			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal;padding: 2px 2px 2px 2px;}
+			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal;}
+			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal;}
 
-			img.screenshot{ width: 45%; padding-left: 10px; padding-right: 10px; }
-			img.icon{ width: 24px; height: 24px; padding: 0px 2px 0px 2px;}
+			img.screenshot{ width: 49%; }
+			img.mainScreenshot{ width: 100%; }
+			img.icon{ width: 24px; height: 24px;}
+			img.logo{ width: 5%; height: 5%; }
 			img.spacer{}
 
 		</style>
@@ -49,9 +53,95 @@
 			</a3>
 		</div>
 
+
 		<div class="space"></div>
-		<div class="game" id="game1">
+		<div class="game" id="galacticplanetwrangler">
 			<div class="gameScreenshots">
+				<img src="games/galacticplanetwrangler/images/1.png" class="mainScreenshot"/>
+				<img src="games/galacticplanetwrangler/images/3.png" class="screenshot"/>
+				<img src="games/galacticplanetwrangler/images/2.png" class="screenshot"/>
+			</div>
+			<div class="gameInfo">
+				<p class="gameTitle">
+					<img src="games/galacticplanetwrangler/icon/icon.png" class="icon"/>
+					Galactic Planet Wrangler
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
+			</div>
+		</div>
+
+		<div class="space"></div>
+		<div class="game" id="dizzysworld">
+			<div class="gameScreenshots">
+				<img src="games/dizzysworld/images/1.png" class="mainScreenshot"/>
+				<img src="games/dizzysworld/images/2.png" class="screenshot"/>
+				<img src="games/dizzysworld/images/3.png" class="screenshot"/>
+				<img src="games/dizzysworld/images/4.png" class="screenshot"/>
+				<img src="games/dizzysworld/images/5.png" class="screenshot"/>
+			</div>
+			<div class="gameInfo">
+				<p class="gameTitle">
+					<img src="games/dizzysworld/icon/icon.png" class="icon"/>
+					Dizzy's World
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
+			</div>
+		</div>
+
+		<div class="space"></div>
+		<div class="game" id="sneakthief">
+			<div class="gameScreenshots">
+				<img src="games/sneakthief/images/1.png" class="mainScreenshot"/>
+				<img src="games/sneakthief/images/2.png" class="screenshot"/>
+				<img src="games/sneakthief/images/3.png" class="screenshot"/>
+			</div>
+			<div class="gameInfo">
+				<p class="gameTitle">
+					<img src="games/sneakthief/icon/icon.png" class="icon"/>
+					Sneak Thief
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
+			</div>
+		</div>
+
+		<div class="space"></div>
+		<div class="game" id="Blender">
+			<div class="gameScreenshots">
+				<img src="games/blender/images/1.png" class="mainScreenshot"/>
+			</div>
+			<div class="gameInfo">
+				<p class="gameTitle">
+					<img src="games/blender/icon/icon.png" class="icon"/>
+					Blender
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
+			</div>
+		</div>
+
+		<div class="space"></div>
+		<div class="game" id="ljza">
+			<div class="gameScreenshots">
+				<img src="games/lumberjackzedattack/images/1.png" class="mainScreenshot"/>
 			</div>
 			<div class="gameInfo">
 				<p class="gameTitle">
@@ -61,21 +151,38 @@
 				<p class="gameText">
 					An arcade survival game about a burly lumberjack and his axe. 
 				</p>
+				<p class="gameText">
+					Zombies spawn from all corners of the screen and they can smell you. Use your trusty axe to cut down trees and lay traps using the wood. Rescue survivors along the way for bonus points! The zombies get faster over time so watch out! 
+				</p>
 			</div>
 		</div>
 
+		<!-- Game template
 		<div class="space"></div>
-		<div class="game" id="game2">
+		<div class="game" id="GAMENAME">
 			<div class="gameScreenshots">
-				<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
+				<img src="games/GAMENAME/images/1.png" class="mainScreenshot"/>
+				<img src="games/GAMENAME/images/2.png" class="screenshot"/>
+				<img src="games/GAMENAME/images/3.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
-				<a1>GAME 2</a1>
+				<p class="gameTitle">
+					<img src="games/GAMENAME/icon/icon.png" class="icon"/>
+					GAMENAME
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
 			</div>
 		</div>
+		-->
 
+		<div class="space"></div>
 		<div class="end" align="center">
-			<img id="logo" src="images/logo.png" width="5%" height="5%">
+			<img class="logo" src="images/logo.png">
 		</div>
 	</body>
 </html>
