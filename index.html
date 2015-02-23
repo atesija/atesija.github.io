@@ -4,36 +4,77 @@
 		<style>
 			@font-face
 			{
+				font-family: "Vera";
+				src: url(font/Vera.ttf);
+			}
+			@font-face
+			{
 				font-family: "VeraBd";
 				src: url(font/VeraBd.ttf);
 			}
 
-			div.title{ width: 100%; background: #444444;}
-			div.game{ width: 70%; background: #EEEEEE;}
-			div.gameScreenshots{ width: 30%;}
-			div.gameInfo{}
-			div.end{}
+			div.title{ width: 100%; background: #333333; padding: 10px 0px 10px 0px; display: block; text-align: center; margin: 0 auto;}
+			div.game{ width: 50%; background: #EEEEEE; padding: 20px 20px 20px 20px; display: block; margin: 0 auto; overflow: hidden;}
+			div.gameScreenshots{ width: 39%; background: #aa2a44; display: block; position: relative; float: left;}
+			div.gameInfo{ width: 59%; background: #523674; display: block; position: relative; float: right;}
+			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto;}
+			div.space{padding: 70px; display: block; margin: 0 auto;}
 
+			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 72px; font-style: normal; color: #FFFFFF; text-shadow: 4px 4px #111111; }
+			a2{ font-family: "Vera", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #FFFFFF; text-shadow: 3px 3px #111111; }
+			a3{ font-family: "Vera", "Verdana", "Consolas"; font-size: 18px; font-style: normal; color: #FFFFFF; text-shadow: 2px 2px #111111; }
+		
+			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal;padding: 2px 2px 2px 2px;}
+			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal;padding: 2px 2px 2px 2px;}
 
-
-			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #000000; text-shadow: 2px 2px #777777; }
-			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #7eae53; }
 			img.screenshot{ width: 45%; padding-left: 10px; padding-right: 10px; }
-			img.icon{ width: 24px; height: 24px; }
+			img.icon{ width: 24px; height: 24px; padding: 0px 2px 0px 2px;}
 			img.spacer{}
+
 		</style>
 	</head>
 	<body>
+
 		<div class="title">
 			<a1>
 				Anthony Tesija
 			</a1>
+			<br/>
+			<a2>
+				ATesh Games LLC
+			</a2>
+			<br/>
+			<a3>
+				Game Design and Development
+			</a3>
 		</div>
-		<div class="game" id="game" align="center" width="60%">
-			<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
-			<a1>GAME NAME</a1>
+
+		<div class="space"></div>
+		<div class="game" id="game1">
+			<div class="gameScreenshots">
+			</div>
+			<div class="gameInfo">
+				<p class="gameTitle">
+					<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
+					Lumberjack Zed Attack
+				</p>
+				<p class="gameText">
+					An arcade survival game about a burly lumberjack and his axe. 
+				</p>
+			</div>
 		</div>
-		<div align="center">
+
+		<div class="space"></div>
+		<div class="game" id="game2">
+			<div class="gameScreenshots">
+				<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
+			</div>
+			<div class="gameInfo">
+				<a1>GAME 2</a1>
+			</div>
+		</div>
+
+		<div class="end" align="center">
 			<img id="logo" src="images/logo.png" width="5%" height="5%">
 		</div>
 	</body>
