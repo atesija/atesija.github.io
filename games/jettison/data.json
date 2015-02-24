@@ -1,0 +1,17 @@
+{
+  "game": {
+    "title": "Title",
+    "year": "Year",
+    "video": "VideoURL",
+    "technology": "Technology",
+    "awards": "Awards",
+    "image1": "games/GAMENAMEHERE/images/image1",
+    "image2": "games/GAMENAMEHERE/images/image2",
+    "image3": "games/GAMENAMEHERE/images/image3",
+    "overview": "Overview",
+    "platform": "Platform",
+    "contribution": "Contribution",
+    "download": "DownloadURL",
+    "downloadtext": "Download Text"
+  }
+}
