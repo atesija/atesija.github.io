@@ -26,12 +26,13 @@
 			a2{ font-family: "Vera", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #FFFFFF; text-shadow: 3px 3px #111111; }
 			a3{ font-family: "Vera", "Verdana", "Consolas"; font-size: 18px; font-style: normal; color: #FFFFFF; text-shadow: 2px 2px #111111; }
 		
-			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal;}
-			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal;}
+			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal; margin-top: auto; margin-bottom: auto;	}
+			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal; }
+			p.gameYear{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 14px; font-style: normal; color: #888888;}
 
 			img.screenshot{ min-width: 40%; max-width: 49% }
 			img.mainScreenshot{ width: 100%; }
-			img.icon{ width: 24px; height: 24px;}
+			img.icon{ width: 24px; height: 24px; float: left; margin-right: 4px;}
 			img.logo{ width: 5%; height: 5%; }
 			img.spacer{}
 
@@ -60,9 +61,12 @@
 				<img src="games/jettison/images/2.png" class="mainScreenshot"/>
 			</div>
 			<div class="gameInfo">
-				<p class="gameTitle">
 					<img src="games/jettison/icon/icon.png" class="icon"/>
+				<p class="gameTitle">
 					Jettison
+				</p>
+				<p class="gameYear">
+					2015 - Android and iOS
 				</p>
 				<p class="gameText">
 					A meteor has heavily damaged the factory you work in leaving it ready to explode at any time. Your space suit has been damaged in the process and is stuck in run mode. Use your jetpack to navigate through 30 daring rooms and make it to the escape pod! 
@@ -70,9 +74,41 @@
 				<p class="gameText">
 					Jettison is a puzzle platformer that features 30 hand crafted levels designed to test your skills. The game is easy to learn and play and only requires a single press to fire your jetpack. You only have a small amount of fuel that will recharge when while you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it. Jettison is $1.99 on both Android and iOS and will be available March 20th.
 				</p>
+				<a href="https://play.google.com/store">
+					<img id="androidStore" src="press/stores/android.png" width="172px" height="60px" class="store">
+				</a>
+				<a href="http://store.apple.com/">
+					<img id="iosStore" src="press/stores/ios.png" width="203px" height="60px" class="store">
+				</a>
 			</div>
 		</div>
 
+		<div class="space"></div>
+		<div class="game" id="thugbuster">
+			<div class="gameScreenshots">
+				<img src="games/thugbuster/images/1.png" class="mainScreenshot"/>
+				<img src="games/thugbuster/images/2.png" class="screenshot"/>
+				<img src="games/thugbuster/images/3.png" class="screenshot"/>
+			</div>
+			<div class="gameInfo">
+				<img src="games/thugbuster/icon/icon.png" class="icon"/>
+				<p class="gameTitle">
+					Thug Buster
+				</p>
+				<p class="gameYear">
+					2014 - Android
+				</p>
+				<p class="gameText">
+					Quick description
+				</p>
+				<p class="gameText">
+					Long description
+				</p>
+				<a href="https://play.google.com/store/apps/details?id=com.ATeshGames.ThugBuster">
+					<img id="androidStore" src="press/stores/android.png" width="172px" height="60px" class="store">
+				</a>
+			</div>
+		</div>
 
 		<div class="space"></div>
 		<div class="game" id="galacticplanetwrangler">
@@ -82,9 +118,12 @@
 				<img src="games/galacticplanetwrangler/images/2.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/galacticplanetwrangler/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/galacticplanetwrangler/icon/icon.png" class="icon"/>
 					Galactic Planet Wrangler
+				</p>
+				<p class="gameYear">
+					2014 - Web
 				</p>
 				<p class="gameText">
 					Do you like cowboys and space? Well it turns out that mixing the two was an absolutely awful idea, but here's a game about both anyways.
@@ -94,6 +133,9 @@
 
 					Galactic Planet Wrangler was made for <a href="http://ludumdare.com/compo/ludum-dare-30/">Ludum Dare 30</a>
 				</p>
+				<a href="http://gamejolt.com/games/arcade/galactic-planet-wrangler/33164/">
+					<img id="androidStore" src="press/stores/gamejolt.png" width="172px" height="60px" class="store">
+				</a>
 			</div>
 		</div>
 
@@ -107,17 +149,22 @@
 				<img src="games/dizzysworld/images/5.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/dizzysworld/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/dizzysworld/icon/icon.png" class="icon"/>
 					Dizzy's World
+				</p>
+				<p class="gameYear">
+					2014 - Web
 				</p>
 				<p class="gameText">
 					Dizzy's World is a puzzle platformer where you guide Dizzy through dangerous worlds to his home. Dizzy is pretty old so he can't jump like his famous platforming counterparts, but he does have vertigo and the world seems to shift around him. Use his nausiating power to bring him home!
 				</p>
 				<p class="gameText">
 					Dizzy's world was made for <a href="http://jams.gamejolt.io/gbjam3">GBJam3</a> and recieved 84th out of 248 submissions.
-					<img src="games/dizzysworld/images/DWscores.png"/>
 				</p>
+				<a href="http://gamejolt.com/games/puzzle/dizzy-s-world/31664/">
+					<img id="androidStore" src="press/stores/gamejolt.png" width="172px" height="60px" class="store">
+				</a>
 			</div>
 		</div>
 
@@ -129,8 +176,8 @@
 				<img src="games/sneakthief/images/3.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/sneakthief/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/sneakthief/icon/icon.png" class="icon"/>
 					Sneak Thief
 				</p>
 				<p class="gameText">
@@ -148,8 +195,8 @@
 				<img src="games/blender/images/1.png" class="mainScreenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/blender/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/blender/icon/icon.png" class="icon"/>
 					Blender
 				</p>
 				<p class="gameText">
@@ -167,8 +214,8 @@
 				<img src="games/lumberjackzedattack/images/1.png" class="mainScreenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/lumberjackzedattack/icon/icon.png" class="icon"/>
 					Lumberjack Zed Attack
 				</p>
 				<p class="gameText">
@@ -189,9 +236,12 @@
 				<img src="games/GAMENAME/images/3.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
+				<img src="games/GAMENAME/icon/icon.png" class="icon"/>
 				<p class="gameTitle">
-					<img src="games/GAMENAME/icon/icon.png" class="icon"/>
 					GAMENAME
+				</p>
+				<p class="gameYear">
+					20XX - Platform and Other Platform
 				</p>
 				<p class="gameText">
 					Quick description
