@@ -4,27 +4,40 @@
 		<style>
 			@font-face
 			{
+				font-family: "Vera";
+				src: url(font/Vera.ttf);
+			}
+			@font-face
+			{
 				font-family: "VeraBd";
-				src: url(VeraBd.ttf);
+				src: url(font/VeraBd.ttf);
 			}
 			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 120px; font-style: normal; color: #7eae53; text-shadow: 5px 5px #407440; }
-			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #ff8011; text-shadow: 2px 2px #000000;}
-			links{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal;}
+			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #ff8011; text-shadow: 2px 2px #000000; }
+
+			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 16px; font-style: normal; margin-top: 25px;}
+			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; margin-top: 25px;}
+
 			img.screenshot{ width: 45%; padding-left: 10px; padding-right: 10px; }
 			img.screenshotWide{ width: 90%; padding-left: 10px; padding-right: 10px; }
 			img.screenshotTall{ width: 25%; padding-left: 10px; padding-right: 10px; }
 			img.store{ padding-left: 10px; padding-right: 10px; }
+
 			div{ padding-top: 15px; padding-bottom: 15px;}
-			div.textbox{ background-image: url("images/textbox.png"); background-repeat: no-repeat; background-size: cover;}
+			div.textbox{ width: 60%; margin-right: auto; margin-left: auto;padding-top: 0px; padding-bottom: 0px; background-color: #457D45; box-shadow: 7px 7px 0px #32133b}
+			div.contact{ display: inline-block; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #457D45; box-shadow: 7px 7px 0px #32133b}
 		</style>
 	</head>
 	<body bgcolor="#522252">
+
 		<div align="center" id="titlediv">
 			<img id="title" src="images/title.png" width="80%" height="10%">
 		</div>
+
 		<div align="center" id="trailerdiv">
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/VOfujvTe9yI" frameborder="0" allowfullscreen></iframe>
 		</div>
+
 		<div align="center" id="linkdiv">
 			<a href="https://play.google.com/store">
 				<img id="androidStore" src="images/android.png" width="172px" height="60px" class="store">
@@ -33,14 +46,16 @@
 				<img id="iosStore" src="images/ios.png" width="203px" height="60px" class="store">
 			</a>
 		</div>
-		<div id="textdiv">
-			<ap>
+
+		<div id="textdiv" class="textbox">
+			<p class="gameText">
 				A meteor has heavily damaged the factory you work in leaving it ready to explode at any time. Your space suit has been damaged in the process and is stuck in run mode. Use your jetpack to navigate through 30 daring rooms and make it to the escape pod!
-			</ap><br/>
-			<ap>
+			</p>
+			<p class="gameText">
 				Jettison is a puzzle platformer that features 30 hand crafted levels designed to test your skills. The game is easy to learn and play and only requires a single press to fire your jetpack. You only have a small amount of fuel that will recharge when while you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it.
-			</ap>
+			</p>
 		</div>
+
 		<div align="center" id="screenshotdiv">
 			<img id="drop" src="images/screenshots/drop.png"  class="screenshot">
 			<img id="zap" src="images/screenshots/zap.png"  class="screenshot">
@@ -48,15 +63,17 @@
 			<img id="long" src="images/screenshots/long.png"  class="screenshotWide">
 			<!--<br><img id="rise" src="images/screenshots/rise.png"  class="screenshotTall">-->
 		</div>
-		<div align="center" id="contactdiv">
-			<ap>
+
+		<div align="center" class="contact">
+			<p class="gameText">
 				Contact
-			</ap><br/>
-			<links>
+			</p>
+			<p class="contact">
 				<a href="https://twitter.com/AntonTesh">Twitter</a> |
+				<a href="http://ateshgames.com/">Press</a> |
 				<a href="http://ateshgames.com/">ATeshGames</a> |
 				<a href="mailto:ateshgames@gmail.com?Subject=Jettison" target="_top">Email</a>
-			</links>
+			</p>
 		</div>	
 		<div align="center" id="logodiv">
 			<img id="logo" src="images/ateshlogo.png" width="5%" height="5%">
