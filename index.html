@@ -16,18 +16,18 @@
 			body{margin: 0;}
 
 			div.title{ width: 100%; background: #333333; padding: 10px 0px 30px 0px; display: block; text-align: center; margin: 0 auto;}
-			div.game{ width: 50%; background: #EEEEEE; padding: 20px 20px 20px 20px; display: block; margin: 0 auto; overflow: hidden;}
-			div.gameScreenshots{ width: 39%; display: block; position: relative; float: left;}
-			div.gameInfo{ width: 59%; display: block; position: relative; float: right;}
+			div.game{ width: 55%; background: #EEEEEE; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden;}
+			div.gameScreenshots{ width: 38%; display: block; position: relative; float: left;}
+			div.gameInfo{ width: 58%; display: block; position: relative; float: right;}
 			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto;}
-			div.space{padding: 70px; display: block; margin: 0 auto;}
+			div.space{padding: 30px; display: block; margin: 0 auto;}
 
 			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 72px; font-style: normal; color: #FFFFFF; text-shadow: 4px 4px #111111; }
 			a2{ font-family: "Vera", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #FFFFFF; text-shadow: 3px 3px #111111; }
 			a3{ font-family: "Vera", "Verdana", "Consolas"; font-size: 18px; font-style: normal; color: #FFFFFF; text-shadow: 2px 2px #111111; }
 		
-			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal; margin-top: auto; margin-bottom: auto;	}
-			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal; }
+			p.gameTitle{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 18px; font-style: normal; margin-top: auto; margin-bottom: auto; }
+			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal; margin-top: 25px;}
 			p.gameYear{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 14px; font-style: normal; color: #888888;}
 
 			img.screenshot{ min-width: 40%; max-width: 49% }
@@ -35,6 +35,7 @@
 			img.icon{ width: 24px; height: 24px; float: left; margin-right: 4px;}
 			img.logo{ width: 5%; height: 5%; }
 			img.spacer{}
+			img.store{margin-top: 25px; }
 
 			iframe{ width: 80%; height: 300px; margin-left: auto; margin-right: auto;}
 
@@ -75,6 +76,9 @@
 				</p>
 				<p class="gameText">
 					Jettison is a puzzle platformer that features 30 hand crafted levels designed to test your skills. The game is easy to learn and play and only requires a single press to fire your jetpack. You only have a small amount of fuel that will recharge when while you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it.
+				</p>
+				<p class="gameText">
+					Visit the website <a href="http://www.JettisonGame.com">JettisonGame.com</a> for more information!
 				</p>
 				<a href="https://play.google.com/store">
 					<img id="androidStore" src="images/stores/android.png" width="172px" height="60px" class="store">
@@ -127,7 +131,7 @@
 				<p class="gameText">
 					In Galactic Planet Wrangler your task is to round up as many planets as possible before crashing into the sun. Your controls consist of riding your asteroid as you barrel towards your impending doom or yelling YEEHAW! because you feel like it. Use your amazing abilities to collect as many planets and asteroids as you can before sacrificing them to the sun.
 
-					Galactic Planet Wrangler was made for <a href="http://ludumdare.com/compo/ludum-dare-30/">Ludum Dare 30 Jam</a> and scored 294th out of 1045 entries.
+					Galactic Planet Wrangler was made for <a href="http://ludumdare.com/compo/ludum-dare-30/">Ludum Dare 30 Jam</a> and scored <b>294th out of 1045</b> entries.
 				</p>
 				<a href="http://gamejolt.com/games/arcade/galactic-planet-wrangler/33164/">
 					<img id="androidStore" src="images/stores/gamejolt.png" width="172px" height="60px" class="store">
@@ -156,7 +160,7 @@
 					Dizzy's World is a puzzle platformer where you guide Dizzy through dangerous worlds to his home. Dizzy is pretty old so he can't jump like his famous platforming counterparts, but he does have vertigo and the world seems to shift around him. Use his nausiating power to bring him home! In each level you collect a key and get to a door to make it out. There are ten levels to guide Dizzy through before he can make it home. You can rotate the world in order to make it to hard to reach places.
 				</p>
 				<p class="gameText">
-					Dizzy's world was made for <a href="http://jams.gamejolt.io/gbjam3">GBJam3</a> and recieved 84th out of 248 submissions.
+					Dizzy's world was made for <a href="http://jams.gamejolt.io/gbjam3">GBJam3</a> and recieved <b>84th out of 248</b> submissions.
 				</p>
 				<a href="http://gamejolt.com/games/puzzle/dizzy-s-world/31664/">
 					<img id="androidStore" src="images/stores/gamejolt.png" width="172px" height="60px" class="store">
@@ -168,7 +172,6 @@
 		<div class="game" id="holysplit">
 			<div class="gameScreenshots">
 				<img src="games/holysplit/images/2.png" class="mainScreenshot"/>
-				<img src="games/holysplit/images/3.png" class="mainScreenshot"/>
 			</div>
 			<div class="gameInfo">
 				<img src="games/holysplit/icon/icon.png" class="icon"/>
@@ -182,7 +185,7 @@
 					Holy Split! is a game about a robot astronaut with a color based plasma rifle. Colored alien blobs are attacking you and you must shoot them with their own color to kill them. You only have red, blue, and yellow to shoot with. Shooting blobs of the secondary colors green, orange, and purple with one of the primary colors that go into them will split them into two primary aliens. Hitting any alien with a color not used to make it will cause it to split in two. Each color alien has a different AI that will try to trick you. Oh and they multiply over time if you leave them alone so watch out! 
 				</p>
 				<p class="gameText">
-					This game was made for Wolverine Soft's 48 hour game competition and won 3rd place out of 20 entries. The theme was "separate". Wolverine Soft is University of Michigan's game development club.
+					This game was made for Wolverine Soft's 48 hour game competition and won <b>3rd place out of 20</b> entries. The theme was "separate". Wolverine Soft is University of Michigan's game development club.
 				</p>
 				<a href="https://www.dropbox.com/s/lubcoebptvdlt81/HolySplit.zip?dl=0">
 					<img src="images/stores/download.png" width="172px" height="60px" class="store">
@@ -231,7 +234,7 @@
 					Combine colored orbs to open doors in this perilous puzzle maze. Each colored orb opens it's corresponding colored door. The rainbow orbs allow you to combine your current colors to unlock new paths.
 				</p>
 				<p class="gameText">
-					This game was made for Wolverine Soft's 48 hour game competition and won 3rd place out of 16 entries. The theme was "combine". Wolverine Soft is University of Michigan's game development club.
+					This game was made for Wolverine Soft's 48 hour game competition and won <b>3rd place out of 16</b> entries. The theme was "combine". Wolverine Soft is University of Michigan's game development club.
 				</p>
 				<a href="https://www.dropbox.com/s/jc0ubnk7oh2k3is/Blender.zip?dl=0">
 					<img src="images/stores/download.png" width="172px" height="60px" class="store">
