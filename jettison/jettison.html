@@ -13,22 +13,24 @@
 				src: url(font/VeraBd.ttf);
 			}
 
-			p.gameText{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #ffffff; padding: 10px;}
-			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ffffff; padding: 10px;}
+			p.gameText{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px; text-indent: 35px;}
+			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px;}
+			p.company{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011;}
 
 			img.screenshot{ margin-left: auto; margin-right: auto; }
 			img.store{ padding-left: 10px; padding-right: 10px; }
 			img.logo{padding: 10px; width: 7%; height: 7%;}
 
-			div{ padding-top: 15px; padding-bottom: 15px; margin-right: auto; margin-left: auto; width: 80%;}
+			div{ padding-top: 15px; padding-bottom: 15px; margin-right: auto; margin-left: auto;}
+			div.screenshot{ width: 80%; text-align: center;}
 			div.textbox{ width: 60%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; }
 			div.contact{ width: 40%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; text-align: center;}
 		</style>
 	</head>
 	<body bgcolor="#522252">
 
-		<div align="center" id="titlediv">
-			<img id="title" src="images/title.png" width="80%" height="10%">
+		<div align="center">
+			<img id="title" src="images/title.png" width="95%">
 		</div>
 
 		<div align="center" id="trailerdiv">
@@ -45,18 +47,25 @@
 		</div>
 
 		<div class="textbox">
+<!--			
 			<p class="gameText">
 				A meteor has heavily damaged the factory you work in leaving it ready to explode at any time. Your space suit has been damaged in the process and is stuck in run mode. Use your jetpack to navigate through 30 daring rooms and make it to the escape pod!
 			</p>
+-->
 			<p class="gameText">
-				Jettison is a puzzle platformer that features 30 hand crafted levels designed to test your skills. The game is easy to learn and play and only requires a single press to fire your jetpack. You only have a small amount of fuel that will recharge when while you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it.
+				Jettison is a puzzle platformer that features 30 levels designed to test your skills. You play as an astronaut escaping an exploding factory on the moon. The game is easy to learn and play, only requiring a single press to fire your jetpack. You have a small amount of fuel that will recharge when you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it. Each level has a key and an exit. Collecting the key will open the door to the next level. The factory you're escaping has deadly traps including acid and lasers. 
 			</p>
 		</div>
 
-		<div>
+		<div class="screenshot">
 			<img src="images/screenshots/zap.gif"  class="screenshot" width="53%">
 			<img src="images/screenshots/drop.gif"  class="screenshot" width="43%">
 			<img src="images/screenshots/long.png"  class="screenshot" width="90%">
+		</div>
+
+		<div class="screenshot">
+			<img src="images/screenshots/drop.gif"  class="screenshot">
+			<img src="images/screenshots/zap.gif"  class="screenshot">
 		</div>
 
 		<div class="contact">
@@ -67,10 +76,10 @@
 				<a href="mailto:ateshgames@gmail.com?Subject=Jettison" target="_top">Email</a>
 			</p>
 		</div>	
-		<div align="center" id="logodiv">
+		<div align="center">
 			<img class="logo" src="images/ateshlogo.png">
 			<br>
-			<p class="gameText">
+			<p class="company">
 				ATesh Games L.L.C.
 			</p>
 		</div>
