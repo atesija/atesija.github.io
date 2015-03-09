@@ -12,20 +12,17 @@
 				font-family: "VeraBd";
 				src: url(font/VeraBd.ttf);
 			}
-			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 120px; font-style: normal; color: #7eae53; text-shadow: 5px 5px #407440; }
-			ap{  font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #ff8011; text-shadow: 2px 2px #000000; }
 
-			p.gameText{font-family: "Vera", "Verdana", "Consolas"; font-size: 16px; font-style: normal; margin-top: 25px;}
-			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; margin-top: 25px;}
+			p.gameText{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 16px; font-style: normal; color: #ffffff; padding: 10px;}
+			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ffffff; padding: 10px;}
 
-			img.screenshot{ width: 45%; padding-left: 10px; padding-right: 10px; }
-			img.screenshotWide{ width: 90%; padding-left: 10px; padding-right: 10px; }
-			img.screenshotTall{ width: 25%; padding-left: 10px; padding-right: 10px; }
+			img.screenshot{ margin-left: auto; margin-right: auto; }
 			img.store{ padding-left: 10px; padding-right: 10px; }
+			img.logo{padding: 10px; width: 7%; height: 7%;}
 
-			div{ padding-top: 15px; padding-bottom: 15px;}
-			div.textbox{ width: 60%; margin-right: auto; margin-left: auto;padding-top: 0px; padding-bottom: 0px; background-color: #457D45; box-shadow: 7px 7px 0px #32133b}
-			div.contact{ display: inline-block; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #457D45; box-shadow: 7px 7px 0px #32133b}
+			div{ padding-top: 15px; padding-bottom: 15px; margin-right: auto; margin-left: auto; width: 80%;}
+			div.textbox{ width: 60%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; }
+			div.contact{ width: 40%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; text-align: center;}
 		</style>
 	</head>
 	<body bgcolor="#522252">
@@ -47,7 +44,7 @@
 			</a>
 		</div>
 
-		<div id="textdiv" class="textbox">
+		<div class="textbox">
 			<p class="gameText">
 				A meteor has heavily damaged the factory you work in leaving it ready to explode at any time. Your space suit has been damaged in the process and is stuck in run mode. Use your jetpack to navigate through 30 daring rooms and make it to the escape pod!
 			</p>
@@ -56,18 +53,13 @@
 			</p>
 		</div>
 
-		<div align="center" id="screenshotdiv">
-			<img id="drop" src="images/screenshots/drop.png"  class="screenshot">
-			<img id="zap" src="images/screenshots/zap.png"  class="screenshot">
-			<br>
-			<img id="long" src="images/screenshots/long.png"  class="screenshotWide">
-			<!--<br><img id="rise" src="images/screenshots/rise.png"  class="screenshotTall">-->
+		<div>
+			<img src="images/screenshots/zap.gif"  class="screenshot" width="53%">
+			<img src="images/screenshots/drop.gif"  class="screenshot" width="43%">
+			<img src="images/screenshots/long.png"  class="screenshot" width="90%">
 		</div>
 
-		<div align="center" class="contact">
-			<p class="gameText">
-				Contact
-			</p>
+		<div class="contact">
 			<p class="contact">
 				<a href="https://twitter.com/AntonTesh">Twitter</a> |
 				<a href="http://ateshgames.com/">Press</a> |
@@ -76,9 +68,11 @@
 			</p>
 		</div>	
 		<div align="center" id="logodiv">
-			<img id="logo" src="images/ateshlogo.png" width="5%" height="5%">
+			<img class="logo" src="images/ateshlogo.png">
 			<br>
-			<ap>ATesh Games L.L.C.</ap>
+			<p class="gameText">
+				ATesh Games L.L.C.
+			</p>
 		</div>
 	</body>
 </html>
