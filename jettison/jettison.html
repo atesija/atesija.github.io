@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 		<style>
 			@font-face
 			{
@@ -13,39 +14,44 @@
 				src: url(font/VeraBd.ttf);
 			}
 
-			p.gameText{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px; text-indent: 35px;}
-			p.gameTextSunk{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px; text-indent: 35px; text-shadow: 4px 4px #32133b;}
-			p.contact{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px;}
-			p.company{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 24px; font-style: normal; color: #ff8011;}
+			p.gameText{font-family: "Righteous", "VeraBd", "Verdana"; font-size: 24px; font-style: normal; color: #FFFFFF; text-indent: 35px; margin: 15px;}
+			p.gameTextSunk{font-family: "Righteous", "VeraBd", "Verdana"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px; text-indent: 35px; text-shadow: 4px 4px #32133b;}
+			p.contact{font-family: "Righteous", "VeraBd", "Verdana"; font-size: 24px; font-style: normal; color: #ff8011; padding: 10px;}
+			p.company{font-family: "Righteous", "VeraBd", "Verdana"; font-size: 24px; font-style: normal; color: #ff8011;}
 
 			img.screenshot{ margin-left: auto; margin-right: auto; }
 			img.store{ padding-left: 10px; padding-right: 10px; }
 			img.logo{padding: 10px; width: 7%; height: 7%;}
 
-			div{ padding-top: 15px; padding-bottom: 15px; margin-right: auto; margin-left: auto;}
+			div{ margin-right: auto; margin-left: auto; margin-top: 20px; margin-bottom: 20px;}
 			div.screenshot{ width: 80%; text-align: center;}
-			div.textbox{ width: 60%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; }
-			div.contact{ width: 40%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; text-align: center;}
-			div.text{ width: 60%; margin-right: auto; margin-left: auto; padding-top: 0px; padding-bottom: 0px;}
+			div.textbox{ width: 60%; margin-right: auto; margin-left: auto; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c;}
+			div.contact{ width: 40%; margin-right: auto; margin-left: auto; background-color: #451d45; border-style: solid; border-width: 4px; border-color: #7a406c #32133b #32133b #7a406c; text-align: center;}
+			div.textboxDark{ width: 60%; margin-right: auto; margin-left: auto; background-color: #222222; border-style: solid; border-width: 4px; border-color: #7a406c #451d45 #451d45 #7a406c;}
+			div.contactDark{ width: 40%; margin-right: auto; margin-left: auto; background-color: #222222; border-style: solid; border-width: 4px; border-color: #7a406c #451d45 #451d45 #7a406c; text-align: center;}
+
+			@media only screen and (min-width: 768px) {
+			    /* tablets and desktop */
+			}
+
+			@media only screen and (max-width: 767px) {
+			    /* phones */
+			}
 		</style>
 	</head>
 	<body bgcolor="#522252">
 
 		<div align="center">
-			<img id="title" src="images/title.png" width="95%">
+			<img src="images/title.png" width="95%">
 		</div>
 
-		<div align="center" id="trailerdiv">
+		<div align="center">
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/VOfujvTe9yI" frameborder="0" allowfullscreen></iframe>
 		</div>
 
 		<div align="center" id="linkdiv">
-			<a href="https://play.google.com/store">
-				<img id="androidStore" src="images/android.png" width="172px" height="60px" class="store">
-			</a>
-			<a href="http://store.apple.com/">
-				<img id="iosStore" src="images/ios.png" width="203px" height="60px" class="store">
-			</a>
+			<a href="https://play.google.com/store"><img id="androidStore" src="images/android.png" width="172px" height="60px" class="store"></a>
+			<a href="http://store.apple.com/"><img id="iosStore" src="images/ios.png" width="203px" height="60px" class="store"></a>
 		</div>
 
 		<div class="textbox">
@@ -54,20 +60,24 @@
 				A meteor has heavily damaged the factory you work in leaving it ready to explode at any time. Your space suit has been damaged in the process and is stuck in run mode. Use your jetpack to navigate through 30 daring rooms and make it to the escape pod!
 			</p>
 -->
-			<p class="gameTextSunk">
+			<p class="gameText">
 				Jettison is a puzzle platformer that features 30 levels designed to test your skills. You play as an astronaut escaping an exploding factory on the moon. The game is easy to learn and play, only requiring a single press to fire your jetpack. You have a small amount of fuel that will recharge when you are touching the ground. The challenge comes with knowing when to fire your jetpack and when to release it. Each level has a key and an exit. Collecting the key will open the door to the next level. The factory you're escaping has deadly traps including acid and lasers. 
 			</p>
-		</div>
 
+			<p class="gameText">
+				Jettison will be available on iOS and Android phones and tablets in March for $1.99. The game will be available in all countries able to purchase apps through those stores.
+			</p>
+		</div>
+<!--
 		<div class="screenshot">
 			<img src="images/screenshots/zap.gif"  class="screenshot" width="53%">
 			<img src="images/screenshots/drop.gif"  class="screenshot" width="43%">
 			<img src="images/screenshots/long.png"  class="screenshot" width="90%">
 		</div>
-
+-->
 		<div class="screenshot">
-			<img src="images/screenshots/drop.gif"  class="screenshot">
-			<img src="images/screenshots/zap.gif"  class="screenshot">
+			<img src="images/screenshots/drop.gif"  class="screenshot" width="70%">
+			<img src="images/screenshots/zap.gif"  class="screenshot" width="90%">
 		</div>
 
 		<div class="contact">
