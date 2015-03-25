@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 		<style>
 			@font-face
 			{
@@ -15,20 +16,19 @@
 
 			body{margin: 0;}
 
-			div.title{ width: 100%; background: #333333; padding: 10px 0px 30px 0px; display: block; text-align: center; margin: 0 auto;}
+			div.title{ width: 100%; background: #333333; padding: 10px 0px 20px 0px; display: block; text-align: center; margin-bottom: 50px;}
 			div.content{ width: 55%; display: block; margin: 0 auto; overflow: hidden;}
 			div.factsheet{ width: 30%; display: block; position: relative; float: left;}
 			div.info{ width: 65%; display: block; position: relative; float: right;}
-			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto;}
-			div.space{padding: 30px; display: block; margin: 0 auto;}
+			div.textblock{ display: block; margin-bottom: 40px;}
 
-			a1{ font-family: "VeraBd", "Verdana", "Consolas"; font-size: 72px; font-style: normal; color: #FFFFFF; text-shadow: 4px 4px #111111; }
-			a2{ font-family: "Vera", "Verdana", "Consolas"; font-size: 40px; font-style: normal; color: #FFFFFF; text-shadow: 3px 3px #111111; }
-			a3{ font-family: "Vera", "Verdana", "Consolas"; font-size: 18px; font-style: normal; color: #FFFFFF; text-shadow: 2px 2px #111111; }
+			a1{ font-family: "Ubuntu", "VeraBd", "Verdana", "Consolas"; font-size: 72px; font-weight: bolder; color: #FFFFFF; text-shadow: 4px 4px #111111; }
+			a2{ font-family: "Ubuntu", "Vera", "Verdana", "Consolas"; font-size: 40px; color: #FFFFFF; text-shadow: 3px 3px #111111; }
+			a3{ font-family: "Ubuntu", "Vera", "Verdana", "Consolas"; font-size: 18px; color: #FFFFFF; text-shadow: 2px 2px #111111; }
 		
-			p.header{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 22px; font-style: normal; }
-			p.subheader{font-family: "VeraBd", "Verdana", "Consolas"; font-size: 14px; font-style: normal; }
-			p.text{font-family: "Vera", "Verdana", "Consolas"; font-size: 12px; font-style: normal; }
+			p.header{font-family: "Ubuntu", "VeraBd", "Verdana", "Consolas"; font-size: 26px; font-weight: bolder; margin-top: 0px; margin-bottom: 6px;}
+			p.subheader{font-family: "Ubuntu", "VeraBd", "Verdana", "Consolas"; font-size: 14px; font-weight: bold; margin-top: 30px; margin-bottom: 6px; }
+			p.text{font-family: "Ubuntu", "Vera", "Verdana", "Consolas"; font-size: 14px; margin: 0px; }
 
 			img.screenshot{ min-width: 40%; max-width: 49% }
 			img.mainScreenshot{ width: 100%; }
@@ -56,46 +56,96 @@
 			</a3>
 		</div>
 
-		<div class="space"></div>
-
 		<div class="content">
 			<div class="factsheet">
-				<p class="header">Factsheet</p>
+				<div class="textblock"> 
+					<p class="header">Factsheet</p>
 
-				<p class="subheader">Developer:</p>
-				<p class="text"><a href="http://ATeshGames.com">ATesh Games</a></p>
-				<p class="text">Lansing Michigan, United States</p>
+					<p class="subheader">Developer:</p>
+					<p class="text"><a href="http://ATeshGames.com">ATesh Games</a></p>
+					<p class="text">Lansing Michigan, United States</p>
 
-				<p class="subheader">Founding date:</p>
-				<p class="text">June, 2010</p>
+					<p class="subheader">Founding date:</p>
+					<p class="text">June, 2010</p>
 
-				<p class="subheader">Website:</p>
-				<p class="text"><a href="http://ATeshGames.com">ATeshGames.com</a></p>
+					<p class="subheader">Website:</p>
+					<p class="text"><a href="http://ATeshGames.com">ATeshGames.com</a></p>
 
-				<p class="subheader">Press / Business contact:</p>
-				<p class="text"><a href="mailto:ateshgames@gmail.com">ATeshGames@gmail.com</a></p>
+					<p class="subheader">Press / Business contact:</p>
+					<p class="text"><a href="mailto:ateshgames@gmail.com">ATeshGames@gmail.com</a></p>
 
-				<p class="subheader">Social:</p>
-				<p class="text"><a href="https://twitter.com/AntonTesh">twitter.com/AntonTesh</a></p>
-				<p class="text"><a href="https://www.facebook.com/ATeshGames">facebook.com/ATeshGames</a></p>
+					<p class="subheader">Social:</p>
+					<p class="text"><a href="https://twitter.com/AntonTesh">twitter.com/AntonTesh</a></p>
+					<p class="text"><a href="https://www.facebook.com/ATeshGames">facebook.com/ATeshGames</a></p>
 
-				<p class="subheader">Releases:</p>
-				<p class="text"><a href="http://JettisonGame.com">Jettison</a></p>
+					<p class="subheader">Releases:</p>
+					<p class="text"><a href="http://JettisonGame.com">Jettison</a></p>
+				</div>
 			</div>
 
 			<div class="info">
-				<p class="header">Description</p>
-				<p class="text">ATesh Games is an indie game studio founded and run by Anthony Tesija.</p>
+				<div class="textblock">
+					<p class="header">Description</p>
+					<p class="text">ATesh Games is an indie game studio founded and run by Anthony Tesija. Making fresh games just like your Grandma used to.</p>
+				</div>
 
-				<p class="header">History</p>
+				<div class="textblock">
+					<p class="header">History</p>
+					<p class="subheader">Early years</p>
+					<p class="subheader">Getting Started</p>
+					<p class="subheader">Makin Games</p>
+				</div>
 
-				<p class="subheader">Releases:</p>
-				<p class="text"><a href="http://JettisonGame.com">Jettison</a></p>
+				<div class="textblock">
+					<p class="header">Projects</p>
+					<p class="subheader">Releases:</p>
+					<p class="text"><a href="http://JettisonGame.com">Jettison</a></p>
+				</div>
 
-				<p class="header">Projects</p>
-				<p class="header">Images</p>
-				<p class="header">Logo & Icon</p>
-				<p class="header">Awards & Recognition</p>
+				<div class="textblock">
+					<p class="header">Images</p>
+					<img src="images/pictures/1.jpg" width="80%"/>
+					<img src="images/pictures/2.jpg" width="80%"/>
+				</div>
+
+
+				<div class="textblock">
+					<p class="header">Logo & Icon</p>
+					<img src="images/logo.png" width="40%"/>
+					<img src="images/logo2.png" width="40%"/>
+				</div>
+
+				<div class="textblock">
+					<p class="header">Awards & Recognition</p>
+					<p class="text">"294th out of 1045 entrants in <a href="http://ludumdare.com/compo/ludum-dare-30/">Ludum Dare 30 Jam</a>" - Galactic Planet Wrangler, 2014</p>
+					<p class="text">"84th out of 248 entrants in <a href="http://jams.gamejolt.io/gbjam3">GBJam3</a> game development competition" - Dizzy's World, 2014</p>
+					<p class="text">"3rd out of 20 entrants in University of Michigan's 48 hour game development competition" - Holy Split!, 2013</p>
+					<p class="text">"3rd out of 16 entrants in University of Michigan's 48 hour game development competition" - Blender, 2010</p>
+				</div>
+
+				<div class="textblock">
+					<p class="header">Team</p>
+					<p class="subheader"><a href="http://ATeshGames.com">Anthony Tesija</a></p>
+					<p class="text">Game Design & Development, Business, ATesh Games</p>
+
+					<p class="subheader">Nicholas Tesija</p>
+					<p class="text">Music, Freelancer</p>
+				</div>
+
+				<div class="textblock">				
+					<p class="header">Contact</p>
+					<p class="subheader">Inquiries</p>
+					<p class="text"><a href="mailto:ateshgames@gmail.com">ATeshGames@gmail.com</a></p>
+
+					<p class="subheader">Twitter</p>
+					<p class="text"><a href="https://twitter.com/AntonTesh">twitter.com/AntonTesh</a></p>
+
+					<p class="subheader">Facebook</p>
+					<p class="text"><a href="https://www.facebook.com/ATeshGames">facebook.com/ATeshGames</a></p>
+				
+					<p class="subheader">Web</p>
+					<p class="text"><a href="http://ATeshGames.com">ATeshGames.com</a></p>
+				</div>
 			</div>
 		</div>
 
