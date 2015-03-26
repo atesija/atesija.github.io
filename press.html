@@ -17,7 +17,6 @@
 			body{margin: 0;}
 
 			div.title{ width: 100%; background: #333333; padding: 10px 0px 20px 0px; display: block; text-align: center; margin-bottom: 50px;}
-			div.content{ width: 55%; display: block; margin: 0 auto; overflow: hidden;}
 			div.factsheet{ width: 30%; display: block; position: relative; float: left;}
 			div.info{ width: 65%; display: block; position: relative; float: right;}
 			div.textblock{ display: block; margin-bottom: 40px;}
@@ -36,7 +35,15 @@
 			img.spacer{}
 			img.store{margin-top: 25px; }
 
-			iframe{ width: 80%; height: 300px; margin-left: auto; margin-right: auto;}
+			@media only screen and (min-width: 769px) {
+			    /* desktop */
+			div.content{ width: 55%; display: block; margin: 0 auto; overflow: hidden;}
+			}
+
+			@media only screen and (max-width: 768px) {
+			    /* phones and tablet */
+			div.content{ width: 95%; display: block; margin: 0 auto; overflow: hidden;}
+			}
 
 		</style>
 	</head>
