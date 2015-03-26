@@ -17,17 +17,16 @@
 			body{margin: 0;}
 
 			div.title{ width: 100%; background: #333333; padding: 10px 0px 20px 0px; display: block; text-align: center; margin-bottom: 50px;}
-			div.game{ width: 55%; background: #EEEEEE; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden;}
+			div.game{ width: 55%; background: #EEEEEE; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px;}
 			div.gameScreenshots{ width: 38%; display: block; position: relative; float: left;}
 			div.gameInfo{ width: 58%; display: block; position: relative; float: right;}
-			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto;}
-			div.space{padding: 30px; display: block; margin: 0 auto;}
+			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto; margin-top: 60px;}
 
 			p.name{ font-family: "Ubuntu", "VeraBd", "Verdana"; font-size: 72px; font-weight: bolder; color: #FFFFFF; text-shadow: 4px 4px #111111; margin-top: 5px; margin-bottom: 0px;}
 			p.company{ font-family: "Ubuntu", "Vera", "Verdana"; font-size: 40px; color: #FFFFFF; text-shadow: 3px 3px #111111; margin-top: 5px; margin-bottom: 0px;}
 			p.business{ font-family: "Ubuntu", "Vera", "Verdana"; font-size: 18px; color: #FFFFFF; text-shadow: 2px 2px #111111; margin-top: 5px; margin-bottom: 0px;}
 			p.gameTitle{font-family: "Ubuntu", "VeraBd", "Verdana", "Consolas"; font-size: 26px; font-weight: bold; margin-top: auto; margin-bottom: auto; }
-			p.gameText{font-family: "Ubuntu", "Vera", "Verdana", "Consolas"; font-size: 14px; font-weight: normal; margin-top: 25px;}
+			p.gameText{font-family: "Ubuntu", "Vera", "Verdana", "Consolas"; font-size: 14px; font-weight: normal; margin-top: 25px; text-indent: 35px;}
 			p.gameYear{font-family: "Ubuntu", "VeraBd", "Verdana", "Consolas"; font-size: 14px; font-weight: normal; color: #888888;}
 
 			img.screenshot{ min-width: 40%; max-width: 49% }
@@ -36,8 +35,6 @@
 			img.logo{ width: 5%; height: 5%; }
 			img.spacer{}
 			img.store{margin-top: 25px; }
-
-			iframe{ width: 80%; height: 300px; margin-left: auto; margin-right: auto;}
 
 		</style>
 	</head>
@@ -49,7 +46,19 @@
 			<p class="business">Game Design and Development</p>
 		</div>
 
-		<div class="space"></div>
+
+		<div class="game">
+				<p class="gameTitle">
+					About me
+				</p>
+				<p class="gameText">
+					My name is Anthony Tesija and I'm a game designer and developer. I got started as a kid by drawing levels for my favorite games using paper and pencil. This quickly moved into making levels with games like Starcraft and Time Splitters 2. Luckily those games didn't just have map editors they had a simplified way to write scripts with endless possibilities. AI, stories, and game modes were all at my fingertips with simple if / else blocks and trigger zones. My creativity and love of games pushed me into taking programming courses in college. After learning my first language, C++, in 2010 I jumped into game development and couldn't stop. Since then I've made and released a handful of games for free and I recently released my first paid game. I've had a lot of fun so far and don't plan on stopping!
+				</p>
+				<p class="gameText">
+					Check out my <a href="http://www.ATeshGames.com/press.html">presskit</a> for more information about me or my company.
+				</p>
+		</div>
+
 		<div class="game" id="jettison">
 			<div class="gameScreenshots">
 				<img src="games/jettison/images/1.png" class="mainScreenshot"/>
@@ -74,7 +83,6 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="thugbuster">
 			<div class="gameScreenshots">
 				<img src="games/thugbuster/images/1.png" class="mainScreenshot"/>
@@ -98,7 +106,6 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="galacticplanetwrangler">
 			<div class="gameScreenshots">
 				<img src="games/galacticplanetwrangler/images/1.png" class="mainScreenshot"/>
@@ -124,14 +131,11 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="dizzysworld">
 			<div class="gameScreenshots">
 				<img src="games/dizzysworld/images/1.png" class="mainScreenshot"/>
 				<img src="games/dizzysworld/images/2.png" class="screenshot"/>
 				<img src="games/dizzysworld/images/3.png" class="screenshot"/>
-				<img src="games/dizzysworld/images/4.png" class="screenshot"/>
-				<img src="games/dizzysworld/images/5.png" class="screenshot"/>
 			</div>
 			<div class="gameInfo">
 				<img src="games/dizzysworld/icon/icon.png" class="icon"/>
@@ -153,7 +157,6 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="holysplit">
 			<div class="gameScreenshots">
 				<img src="games/holysplit/images/2.png" class="mainScreenshot"/>
@@ -178,7 +181,28 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
+		<div class="game" id="blastlords">
+			<div class="gameScreenshots">
+				<img src="games/blastlords/images/1.png" class="mainScreenshot"/>
+				<img src="games/blastlords/images/2.png" class="mainScreenshot"/>
+			</div>
+			<div class="gameInfo">
+				<img src="games/blastlords/icon/icon.png" class="icon"/>
+				<p class="gameTitle">
+					Blast Lords
+				</p>
+				<p class="gameYear">
+					2012 - Unreleased
+				</p>
+				<p class="gameText">
+					Blast Lords was my first ambitious project that played like a platformer version of Bomberman. It was four player local multiplayer with controller support. Each player had a set amount of lives and would spawn on a stage with each other. There were all sorts of items that could spawn randomly in the level. Items that changed the player's number of bombs, firepower, speed, health both positive and negative could all be found. The game featured a level editor and four tilesets to choose from when making them. There were a handful of levels included.
+				</p>
+				<p class="gameText">
+					Unfortunately this game was never completed. I started it during a summer in college and when classes came back it got harder and harder to get back into it. I use a lot of the assets and ideas from this game for starting points in other games so it was a great experience in the end!
+				</p>
+			</div>
+		</div>
+
 		<div class="game" id="sneakthief">
 			<div class="gameScreenshots">
 				<img src="games/sneakthief/images/1.png" class="mainScreenshot"/>
@@ -202,7 +226,6 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="Blender">
 			<div class="gameScreenshots">
 				<img src="games/blender/images/1.png" class="mainScreenshot"/>
@@ -227,7 +250,6 @@
 			</div>
 		</div>
 
-		<div class="space"></div>
 		<div class="game" id="ljza">
 			<div class="gameScreenshots">
 				<img src="games/lumberjackzedattack/images/1.png" class="mainScreenshot"/>
@@ -253,7 +275,6 @@
 		</div>
 
 		<!-- Game template
-		<div class="space"></div>
 		<div class="game" id="GAMENAME">
 			<div class="gameScreenshots">
 				<img src="games/GAMENAME/images/1.png" class="mainScreenshot"/>
@@ -281,7 +302,6 @@
 		</div>
 		-->
 
-		<div class="space"></div>
 		<div class="end" align="center">
 			<img class="logo" src="images/logo.png">
 		</div>
