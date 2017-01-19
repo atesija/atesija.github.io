@@ -15,13 +15,21 @@
 				src: url(font/VeraBd.ttf);
 			}
 
-			body{margin: 0;}
+			@keyframes scaler 
+			{
+				0%   {max-width: 90%;}
+				50%  {max-width: 110%;}
+				100% {max-width: 90%;}
+			}
+
+			body{margin: 0; background: #444444;}
 
 			div.title{ width: 100%; background: #222222; padding: 10px 0px 20px 0px; display: block; text-align: center; margin-bottom: 50px;}
-			div.game{ width: 55%; background: #EEEEEE; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px;}
+			div.game{ width: 55%; background: #FFFFFF; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px; border: 14px solid #111111; border-radius: 14px;}
 			div.gameScreenshots{ width: 38%; display: block; position: relative; float: left;}
 			div.gameInfo{ width: 58%; display: block; position: relative; float: right;}
 			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto; margin-top: 60px;}
+			div.customFontHolder{width: 30px; display: block; position: relative; float: left;}
 
 			p.name{ font-family: "Ubuntu", "VeraBd", sans-serif; font-size: 72px; font-weight: bolder; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
 			p.company{ font-family: "Ubuntu", "Vera", sans-serif; font-size: 40px; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
@@ -31,18 +39,56 @@
 			p.gameTextNoIndent{font-family: "Ubuntu", "Vera", sans-serif; font-size: 16px; font-weight: normal; margin-top: 25px;}
 			p.gameYear{font-family: "Ubuntu", "VeraBd", sans-serif; font-size: 16px; font-weight: normal; color: #888888; margin-top: 5px; text-indent: 32px;}
 
-			img.screenshot{ min-width: 40%; max-width: 49% }
-			img.mainScreenshot{ width: 100%; }
+			img.screenshot{ min-width: 40%; max-width: 49%; border-radius: 14px; }
+			img.mainScreenshot{ width: 100%; border-radius: 14px; }
 			img.icon{ width: 24px; height: 24px; float: left; margin-right: 4px;}
 			img.logo{ width: 5%; height: 5%; }
-			img.spacer{}
 			img.store{margin-top: 25px; }
-
+			img.customFont{ margin-left: -5px; margin-right: -5px; animation-name: scaler; animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: ease;}
 		</style>
 	</head>
 	<body>
 
 		<div class="title">
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/A.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/N.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/T.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/H.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/O.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/N.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/Y.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/T.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/E.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/S.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/I.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/J.png"/>
+			</div>
+			<div class="customFontHolder">
+				<img class="customFont" src="font/Custom/A.png"/>
+			</div>
 			<p class="name">Anthony Tesija</p>
 			<p class="company">ATesh Games LLC</p>
 			<p class="business">Game Design and Development</p>
@@ -548,7 +594,7 @@
 		-->
 
 		<div class="end" align="center">
-			<img class="logo" src="images/logo.png">
+			<img class="logo" src="images/BubbleLogo.png">
 		</div>
 	</body>
 </html>
