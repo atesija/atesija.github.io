@@ -17,19 +17,22 @@
 
 			@keyframes scaler 
 			{
-				0%   {max-width: 90%;}
-				50%  {max-width: 110%;}
-				100% {max-width: 90%;}
+				0% {max-width: 80%; transform: rotate(-7deg);}
+				25% {max-width: 100%; }
+				50% {max-width: 80%; transform: rotate(7deg);}
+				75% {max-width: 60%; }
+				100% {max-width: 80%; transform: rotate(-7deg);}
 			}
 
 			body{margin: 0; background: #444444;}
 
-			div.title{ width: 100%; background: #222222; padding: 10px 0px 20px 0px; display: block; text-align: center; margin-bottom: 50px;}
+			div.title{ width: 100%; background: #222222; padding: 50px 0px 20px 0px; display: block; text-align: center; margin: 0 auto;}
 			div.game{ width: 55%; background: #FFFFFF; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px; border: 14px solid #111111; border-radius: 14px;}
 			div.gameScreenshots{ width: 38%; display: block; position: relative; float: left;}
 			div.gameInfo{ width: 58%; display: block; position: relative; float: right;}
-			div.end{ padding: 20px 20px 20px 20px; display: block; margin: 0 auto; margin-top: 60px;}
-			div.customFontHolder{width: 30px; display: block; position: relative; float: left;}
+			div.end{ padding: 100px 0px 0px 0px; display: block; margin: 0 auto; width: 10%; height: 300px;}
+			div.customFontHolder{width: 8%; display: block; position: relative; float: left;}
+			div.customWordHolder{width: 50%; height: 100px; display: block; position: relative; float: left;}
 
 			p.name{ font-family: "Ubuntu", "VeraBd", sans-serif; font-size: 72px; font-weight: bolder; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
 			p.company{ font-family: "Ubuntu", "Vera", sans-serif; font-size: 40px; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
@@ -44,50 +47,57 @@
 			img.icon{ width: 24px; height: 24px; float: left; margin-right: 4px;}
 			img.logo{ width: 5%; height: 5%; }
 			img.store{margin-top: 25px; }
-			img.customFont{ margin-left: -5px; margin-right: -5px; animation-name: scaler; animation-duration: 6s; animation-iteration-count: infinite; animation-timing-function: ease;}
+			img.customFont0{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: 0s;}
+			img.customFont25{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -1s;}
+			img.customFont50{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -2s;}
+			img.customFont75{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -3s;}
 		</style>
 	</head>
 	<body>
 
 		<div class="title">
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/A.png"/>
+			<div class="customWordHolder">
+				<div class="customFontHolder">
+					<img class="customFont0" src="font/Custom/A.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont50" src="font/Custom/N.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont25" src="font/Custom/T.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont0" src="font/Custom/H.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont75" src="font/Custom/O.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont25" src="font/Custom/N.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont50" src="font/Custom/Y.png"/>
+				</div>
 			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/N.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/T.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/H.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/O.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/N.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/Y.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/T.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/E.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/S.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/I.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/J.png"/>
-			</div>
-			<div class="customFontHolder">
-				<img class="customFont" src="font/Custom/A.png"/>
+			<div class="customWordHolder">
+				<div class="customFontHolder">
+					<img class="customFont0" src="font/Custom/T.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont75" src="font/Custom/E.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont50" src="font/Custom/S.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont75" src="font/Custom/I.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont0" src="font/Custom/J.png"/>
+				</div>
+				<div class="customFontHolder">
+					<img class="customFont25" src="font/Custom/A.png"/>
+				</div>
 			</div>
 			<p class="name">Anthony Tesija</p>
 			<p class="company">ATesh Games LLC</p>
@@ -594,7 +604,7 @@
 		-->
 
 		<div class="end" align="center">
-			<img class="logo" src="images/BubbleLogo.png">
+			<img class="customFont0" src="images/BubbleLogo.png">
 		</div>
 	</body>
 </html>
