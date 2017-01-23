@@ -17,22 +17,22 @@
 
 			@keyframes scaler 
 			{
-				0% {max-width: 80%; transform: rotate(-7deg);}
-				25% {max-width: 100%; }
-				50% {max-width: 80%; transform: rotate(7deg);}
-				75% {max-width: 60%; }
-				100% {max-width: 80%; transform: rotate(-7deg);}
+				0% {width: 80%; transform: rotate(-7deg);}
+				25% {width: 100%; }
+				50% {width: 80%; transform: rotate(7deg);}
+				75% {width: 60%; }
+				100% {width: 80%; transform: rotate(-7deg);}
 			}
 
-			body{margin: 0; background: #444444;}
+			body{margin: 0; background: #FFFFFF}
 
-			div.title{ width: 100%; background: #222222; padding: 50px 0px 20px 0px; display: block; text-align: center; margin: 0 auto;}
-			div.game{ width: 55%; background: #FFFFFF; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px; border: 14px solid #555555; border-radius: 14px;}
+			div.title{ width: 100%; background: #222222; display: block; margin: 0 auto; text-align: center; padding: 40px 0px 60px 0px;}
+			div.game{ width: 55%; background: #FFFFFF; padding: 25px 25px 25px 25px; display: block; margin: 0 auto; overflow: hidden; margin-top: 60px; border-radius: 14px; border-width: 20px; border: 18px solid #222222;}
 			div.gameScreenshots{ width: 38%; display: block; position: relative; float: left;}
 			div.gameInfo{ width: 58%; display: block; position: relative; float: right;}
 			div.end{ padding: 100px 0px 0px 0px; display: block; margin: 0 auto; width: 10%; height: 300px;}
-			div.customFontHolder{width: 8%; display: block; position: relative; float: left;}
-			div.customWordHolder{width: 50%; height: 100px; display: block; position: relative; float: left;}
+			div.customFontHolder{width: 50px; height: 50px; display: block; position: relative; float: left;}
+			div.customWordHolder{ height: 100px; display: block; position: relative; margin: 0 auto; padding: 50px, 0px, 50px, 0px;}
 
 			p.name{ font-size: 72px; font-weight: bolder; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
 			p.company{ font-size: 40px; color: #FFFFFF; margin-top: 5px; margin-bottom: 0px; max-height: 999999px;}
@@ -57,7 +57,7 @@
 	</head>
 	<body>
 		<div class="title">
-			<div class="customWordHolder">
+<!-- 			<div class="customWordHolder">
 				<div class="customFontHolder">
 					<img class="customFont0" src="font/Custom/A.png"/>
 				</div>
@@ -99,23 +99,23 @@
 				<div class="customFontHolder">
 					<img class="customFont25" src="font/Custom/A.png"/>
 				</div>
-			</div>
-			<p class="name">Anthony Tesija</p>
+			</div> -->
+ 			<p class="name">Anthony Tesija</p>
 			<p class="company">ATesh Games LLC</p>
 			<p class="business">Game Design and Development</p>
 		</div>
 
 
 		<div class="game">
-				<p class="gameTitle">
-					About me
-				</p>
-				<p class="gameText">
-					My name is Anthony Tesija, I'm a professional software engineer and hobbyist game designer and developer. I got started as a kid by drawing levels for my favorite games using paper and pencil. This quickly moved into making levels with games like Starcraft and Left 4 Dead. Luckily those games didn't just have map editors, they had a simplified way to write scripts with endless possibilities. AI, stories, and game modes were all at my fingertips with simple if / else blocks and trigger zones. My creativity and love of games pushed me into taking programming courses in college. After learning my first language, C++, in 2010 I jumped into game development and couldn't stop. Since then I've made and released a handful of games for free and I recently released my first paid game. I've had a lot of fun so far and don't plan on stopping!
-				</p>
-				<p class="gameTextNoIndent">
-					Check out my <a href="http://www.ATeshGames.com/press.html">presskit</a> for more information about me or my company.
-				</p>
+			<p class="gameTitle">
+				About me
+			</p>
+			<p class="gameText">
+				My name is Anthony Tesija, I'm a professional software engineer and hobbyist game designer and developer. I got started as a kid by drawing levels for my favorite games using paper and pencil. This quickly moved into making levels with games like Starcraft and Left 4 Dead. Luckily those games didn't just have map editors, they had a simplified way to write scripts with endless possibilities. AI, stories, and game modes were all at my fingertips with simple if / else blocks and trigger zones. My creativity and love of games pushed me into taking programming courses in college. After learning my first language, C++, in 2010 I jumped into game development and couldn't stop. Since then I've made and released a handful of games for free and I recently released my first paid game. I've had a lot of fun so far and don't plan on stopping!
+			</p>
+			<p class="gameTextNoIndent">
+				Check out my <a href="http://www.ATeshGames.com/press.html">presskit</a> for more information about me or my company.
+			</p>
 		</div>
 
 		<div class="game" id="hearthop">
