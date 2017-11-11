@@ -15,15 +15,6 @@
 				src: url(font/VeraBd.ttf);
 			}
 
-			@keyframes scaler 
-			{
-				0% {width: 80%; transform: rotate(-7deg);}
-				25% {width: 100%; }
-				50% {width: 80%; transform: rotate(7deg);}
-				75% {width: 60%; }
-				100% {width: 80%; transform: rotate(-7deg);}
-			}
-
 			body{margin: 0; background: #FFFFFF}
 
 			div.title{ width: 100%; background: #222222; display: block; margin: 0 auto; text-align: center; padding: 40px 0px 60px 0px;}
@@ -45,12 +36,8 @@
 			img.screenshot{ min-width: 40%; max-width: 49%; border-radius: 14px; }
 			img.mainScreenshot{ width: 100%; border-radius: 14px; }
 			img.icon{ width: 24px; height: 24px; float: left; margin-right: 4px;}
-			img.logo{ width: 5%; height: 5%; }
+			img.logo{ width: 100%; }
 			img.store{margin-top: 25px; }
-			img.customFont0{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: 0s;}
-			img.customFont25{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -1s;}
-			img.customFont50{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -2s;}
-			img.customFont75{animation-name: scaler; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear; animation-delay: -3s;}
 
 			body{font-family: "Ubuntu", "VeraBd", sans-serif;}
 		</style>
@@ -613,7 +600,7 @@
 		-->
 
 		<div class="end" align="center">
-			<img class="customFont0" src="images/BubbleLogo.png">
+			<img class="logo" src="images/BubbleLogo.png">
 		</div>
 	</body>
 </html>
