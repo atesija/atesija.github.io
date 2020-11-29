@@ -13,7 +13,7 @@ export const games = [
     ],
     steamLink: "https://store.steampowered.com/app/1081410/GourMelee/",
     itchioLink: "https://antontesh.itch.io/gourmelee",
-    screenshots: ["games/gourmelee1.gif", "games/gourmelee2.gif"],
+    screenshots: ["/games/gourmelee1.gif", "/games/gourmelee2.gif"],
     videos: [
       "https://youtu.be/zYyuw5ZdBGg",
       "https://youtu.be/dT4dSqM07Eo?t=265",
@@ -30,7 +30,7 @@ export const games = [
       "Building a custom dialog system piggy-backing off of my font system",
     ],
     itchioLink: "https://antontesh.itch.io/down-to-fly",
-    screenshots: ["games/downtofly1.gif"],
+    screenshots: ["/games/downtofly1.gif"],
   },
   {
     title: "Reflection",
@@ -51,7 +51,7 @@ export const games = [
         link: "https://www.youtube.com/watch?v=Wbgik_MLoUI",
       },
     ],
-    screenshots: ["games/reflection1.png"],
+    screenshots: ["/games/reflection1.png"],
   },
 ];
 
