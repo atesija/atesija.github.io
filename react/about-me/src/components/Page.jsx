@@ -76,6 +76,7 @@ export const Page = styled(({ className, ...props }) => {
           clickable
           color="primary"
           variant={state.design ? "default" : "outlined"}
+          //style={{ backgroundColor: "red" }}
         />
       </Box>
       <Box className="everything">
@@ -103,6 +104,7 @@ export const Page = styled(({ className, ...props }) => {
 
   .filter {
     margin: 8px;
+    background-color: "pink";
   }
 
   .filters {

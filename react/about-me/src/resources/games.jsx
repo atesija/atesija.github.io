@@ -11,12 +11,20 @@ export const games = [
       "Balancing a game with shared resources",
       "Making controller sharing fun",
     ],
-    steamLink: "https://store.steampowered.com/app/1081410/GourMelee/",
-    itchioLink: "https://antontesh.itch.io/gourmelee",
+    storeLinks: [
+      {
+        store: "steam",
+        link: "https://store.steampowered.com/app/1081410/GourMelee/",
+      },
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/gourmelee",
+      },
+    ],
     screenshots: ["/games/gourmelee1.gif", "/games/gourmelee2.gif"],
     videos: [
       "https://youtu.be/zYyuw5ZdBGg",
-      "https://youtu.be/dT4dSqM07Eo?t=265",
+      "https://youtu.be/dT4dSqM07Eo?t=266",
       "https://www.twitch.tv/videos/436936319?t=07h14m27s",
     ],
   },
@@ -29,7 +37,12 @@ export const games = [
     learnings: [
       "Building a custom dialog system piggy-backing off of my font system",
     ],
-    itchioLink: "https://antontesh.itch.io/down-to-fly",
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/down-to-fly",
+      },
+    ],
     screenshots: ["/games/downtofly1.gif"],
   },
   {
@@ -38,7 +51,12 @@ export const games = [
     platforms: "PC",
     description:
       "Reflection is a game about a point in my life where I made a lot of big changes and what I did to cope with them. I started journaling to handle my anxiety and help clear my head. It's something that I still do daily and helps me manage my thoughts. This game was made in 6 hours for Meditations, a game launcher that lets you play a new, short, and poetic game each day.",
-    itchioLink: "https://antontesh.itch.io/reflection",
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/reflection",
+      },
+    ],
     links: [
       { name: "Meditations Website", link: "http://meditations.games/" },
       {
@@ -65,8 +83,16 @@ export const games = [
     platforms: "PC",
     description: "",
     learnings: ["", "",],
-    steamLink: "",
-    itchioLink: "",
+    storeLinks: [
+      {
+        store: "steam",
+        link: "",
+      },
+      {
+        store: "itchio",
+        link: "",
+      },
+    ],
     links: [
       { name: """, link: "" },
     ],
