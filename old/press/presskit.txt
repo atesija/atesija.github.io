@@ -1,0 +1,73 @@
+Presskit:
+
+Factsheet:
+	Developer:
+		ATeshGames [ATeeshGames.com]
+		Based in Lansing Michigan, United States
+
+	Founding date:
+		June, 2010
+
+	Website:
+		ATeshGames.com
+
+	Press / Business contact:
+		ATeshGames@gmail.com
+
+	Social:
+		twitter.com/AntonTesh
+		facebook.com/ATeshGames
+
+	Releases:
+		Jettison [Jettison.com]
+
+Description:
+	ATesh Games is an indie game studio founded and run by Anthony Tesija.
+
+History:
+	Drawing Mario Kart / Sonic levels as a kid
+	Times Splitters 2, Starcraft making maps
+	Programming in College
+	Made first game a year later
+	Continued to now
+	Make games that you pay for once and have a great experience with. No in app purchases or ads
+
+Projects:
+	Jettison [Jettison.com]
+	All other games [ATeshGames.com](link to specific one?)
+
+Videos:
+	None
+
+Images:
+
+Logo & Icon:
+
+Awards & Recognition:
+	" x out of y entrants in competition" - game name, year
+
+Selected Articles:
+	none
+
+Additional Links:
+	none
+
+Team:
+	Anthony Tesija [ATeshGames.com]
+	Game Design & Development, Business, ATesh Games
+
+	Nicholas Tesija
+	Music, Freelancer
+
+Contact:
+	Inquiries
+	ATeshGames@gmail.com
+
+	Twitter
+	twitter.com/AntonTesh
+
+	Facebook
+	facebook.com/ATeshGames
+
+	Web
+	ATeshGames.com

@@ -32,7 +32,7 @@ export const Page = styled(({ className, ...props }) => {
       <Box className="header">
         <Typography variant="h1">Anthony Tešija</Typography>
         <Typography variant="h5" gutterBottom>
-          Developer - Designer - Chef - Mixed Media Artist
+          Chef · Mixed Media Artist · Developer · Designer
         </Typography>
       </Box>
 
@@ -114,8 +114,8 @@ export const Page = styled(({ className, ...props }) => {
     width: 25%;
   }
 
-  .everything {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  // .everything {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  // }
 `;

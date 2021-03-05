@@ -39,18 +39,23 @@ export const Game = styled(({ className, game, ...props }) => {
         game.screenshots.map((image) => (
           <img
             className="screenshotImage"
-            src={process.env.PUBLIC_URL + "/images" + image}
+            src={process.env.PUBLIC_URL + "/images/games/" + image}
           />
         ))}
       {game.videos &&
         game.videos.map((video) => (
-          <ReactPlayer
-            className="gameVideo"
-            url={video}
-            controls={true}
-            width="180px"
-            height="100px"
-          />
+          <>
+            <ReactPlayer
+              className="gameVideo"
+              url={video.link}
+              controls={true}
+              width="180px"
+              height="100px"
+            />
+            <Typography variant="caption" gutterBottom>
+              {video.caption}
+            </Typography>
+          </>
         ))}
       {game.links &&
         game.links.map((link) => (

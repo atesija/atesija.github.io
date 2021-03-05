@@ -12,6 +12,4 @@ export const Display = styled(({ className, children, ...props }) => {
 })`
   padding: 16px;
   margin: 8px;
-  max-width: 250px;
-  min-width: 200px;
 `;
