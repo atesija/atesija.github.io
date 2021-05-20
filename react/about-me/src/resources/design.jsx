@@ -31,3 +31,6 @@
 
 //     screenshots: ["boardgame.jpg", "boardgame2.jpg"],
 //   },
+
+//AL stickers
+//Jer and nik stickers

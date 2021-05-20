@@ -1,5 +1,40 @@
 export const games = [
   {
+    title: "Stretch B4U Race",
+    year: 2021,
+    platforms: "PC",
+    description:
+      'A sketch of a networked multiplayer 3D platforming action racing playground with collectathon and tag elements. This is best played with a game controller and a few friends. Made for Ludum Dare 48 with a theme of "Deeper and deeper"',
+    learnings: ["Online multiplayer"],
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://lunarsignals.itch.io/stretch-b4u-race",
+      },
+    ],
+    screenshots: ["stretchb4urace.gif"],
+    videos: [
+      {
+        caption: "Gameplay video",
+        link: "https://youtu.be/8szWhOBX-0I",
+      },
+    ],
+  },
+  {
+    title: "Craving",
+    year: 2021,
+    platforms: "Web",
+    description: "Craving is an art game presented without description",
+    learnings: ["Carrying particle systems between scenes"],
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/craving",
+      },
+    ],
+    screenshots: ["craving.gif"],
+  },
+  {
     title: "GourMelee",
     year: 2019,
     platforms: "PC",
@@ -36,6 +71,7 @@ export const games = [
         link: "https://www.twitch.tv/videos/436936319?t=07h14m27s",
       },
     ],
+    awards: ["Selected game at Indie Game Party at ACEN 2018"],
   },
   {
     title: "Down to Fly",
@@ -79,26 +115,6 @@ export const games = [
       },
     ],
     screenshots: ["reflection.png"],
-  },
-  {
-    title: "Randomizers",
-    year: 2018,
-    platforms: "Unity Asset",
-    description:
-      "Randomizers is a set of scripts to easily add variation to your games! Just drag and drop them on your game objects, no programming necessary. Works for 2D and 3D games.",
-    storeLinks: [
-      {
-        store: "unity",
-        link: "http://u3d.as/1niM",
-      },
-    ],
-    screenshots: ["randomizers.png"],
-    videos: [
-      {
-        caption: "Tutorial",
-        link: "https://youtu.be/Cub_kqNRo_c",
-      },
-    ],
   },
   {
     title: "OddEyeSee",
@@ -255,6 +271,259 @@ export const games = [
       },
     ],
     awards: ["Second Place", "Crowd Favorite"],
+  },
+  {
+    title: "Eyeconic",
+    year: 2016,
+    platforms: "Android",
+    description:
+      "EYEConic is a clean and minimal looking bullet-hell style game for mobile phones. You drag a character around to keep it away from endless waves of enemies that get faster as time goes on. Each enemy has a unique movement pattern that can be learned and avoided. While dodging enemies you collect orbs to increase your score. When you die your score is saved to an online leaderboard where you can see how you rank globally or against your friends.",
+    learnings: ["Use simple movement to create interesting enemy patterns"],
+    storeLinks: [
+      {
+        store: "android",
+        link:
+          "https://play.google.com/store/apps/details?id=com.ATeshGames.EYEConic",
+      },
+    ],
+    screenshots: ["eyeconic.png"],
+  },
+  {
+    title: "Natrual Perfection",
+    year: 2015,
+    platforms: "PC and Mac",
+    description:
+      'A fast paced, local, four player free for all where the losers evolve between rounds. Players have the basic ability to shoot and dash attack to kill each other. After each round the losers evolution is chosen based on how they battled, died, and many other factors just like natural selection would work (On a much faster time scale). Evolutions like exploding bullets, bouncing bullets, armor, spiky body, longer dash attack, and many others make up to eighteen possible evolutions that produce thousands of combinations. Will you be the one that will carry on the species? Natural Perfection was made with a team for a local two week long game jam with the theme of "Evolution".',
+    learnings: ["Working with a team with different backgrounds"],
+    screenshots: ["natrualperfection.gif"],
+  },
+  {
+    title: "Lost in Thought",
+    year: 2015,
+    platforms: "Web",
+    description:
+      "Lost in Thought is about dreaming, loving, and losing. The idea I was trying to convey was when you dream and come up with something special that has meaning to you. After waking up you remember it fondly for a short time and then those memories fade away. Losing those memories is the permanent death of whatever feelings or ideas came from them. This is the first game I've made that was built around a story. Lost in Thought was made for both ColorJam0 and PermaDeathJam.",
+    learnings: ["Creating a story with no words", "Unity animation system"],
+    storeLinks: [
+      {
+        store: "gamejolt",
+        link: "http://gamejolt.com/games/other/lost-in-thought/58805/",
+      },
+    ],
+    links: [
+      { name: "PermaDeathJam", link: "http://jams.gamejolt.io/permadeathjam" },
+      { name: "ColorJam0", link: "http://jams.gamejolt.io/colorjam0" },
+    ],
+    screenshots: ["lostinthought.png"],
+  },
+  {
+    title: "Jettison",
+    year: 2015,
+    platforms: "Android and iOS",
+    description:
+      "Jettison is a puzzle platformer that features a thirty level story mode and an impossibly difficult set of challenge levels designed to test your skills. You play as an astronaut escaping an exploding factory on the moon. The factory you're escaping has deadly traps including acid and timed lasers. The astronaut runs automatically and will turn when it bumps into a wall. The game is easy to learn and play, only requiring a touch to fire your jetpack. You have a small amount of fuel that will recharge when you are on the ground and deplete while using your jetpack. The challenge comes with maneuvering through hazardous traps while trying to conserve fuel. Each level has a key and collecting it will open the door to the next level. Beat all the levels to get to the escape pod and leave the moon!",
+    learnings: [
+      "Using external map editor",
+      "Building a static website",
+      "Releasing a game on Android and iOS",
+      "Updating a game with more content",
+    ],
+    storeLinks: [
+      {
+        store: "android",
+        link:
+          "https://play.google.com/store/apps/details?id=com.ATeshGames.Jettison",
+      },
+      {
+        store: "ios",
+        link: "https://itunes.apple.com/app/id972913479",
+      },
+    ],
+    links: [
+      {
+        name: "Game website",
+        link: "http://atesija.github.io/jettison/jettison",
+      },
+    ],
+    screenshots: ["jettison.gif"],
+    videos: [
+      {
+        caption: "Release trailer",
+        link: "https://youtu.be/MNvM2Di3G8Q",
+      },
+      {
+        caption: "Jupi Plays Jettison",
+        link: "https://youtu.be/XBvBdBJ7mIE",
+      },
+    ],
+    awards: [
+      "Over 4 star rating with almost 200 reviews and thousands of players",
+    ],
+  },
+  {
+    title: "Thug Buster",
+    year: 2014,
+    platforms: "Android",
+    description:
+      "Thug Buster is an homage to Hogan's Alley on the NES. Thugs and hostages pop up and you must tap all the thugs to eliminate them. Waiting too long or tapping a hostage will damage you and you have three attempts to get a high score.",
+    learnings: ["Mobile development in Unity", "Touch controls"],
+    storeLinks: [
+      {
+        store: "android",
+        link:
+          "https://play.google.com/store/apps/details?id=com.ATeshGames.ThugBuster",
+      },
+    ],
+    screenshots: ["thugbuster.png"],
+  },
+  {
+    title: "Galactic Planet Wrangler",
+    year: 2014,
+    platforms: "Web",
+    description:
+      "In Galactic Planet Wrangler your task is to round up as many planets as possible before crashing into the sun. Your controls consist of riding your asteroid as you barrel towards your impending doom or yelling YEEHAW! because you feel like it. Use your amazing abilities to collect as many planets and asteroids as you can before sacrificing them to the sun.",
+    learnings: ["Vector graphics", "Minimap using another camera"],
+    storeLinks: [
+      {
+        store: "gamejolt",
+        link:
+          "http://gamejolt.com/games/arcade/galactic-planet-wrangler/33164/",
+      },
+    ],
+    screenshots: ["galacticplanetwrangler.png"],
+    videos: [
+      {
+        caption: "Game preview",
+        link: "https://youtu.be/hRXjoLWrguw",
+      },
+    ],
+    awards: ["294th out of 1045 entries in Ludum Dare 30"],
+  },
+  {
+    title: "Dizzy's World",
+    year: 2014,
+    platforms: "Web",
+    description:
+      "Dizzy's World is a puzzle platformer where you guide Dizzy through dangerous worlds to his home. Dizzy is pretty old so he can't jump like his famous platforming counterparts, but he does have vertigo and the world seems to shift around him. Use his nauseating power to bring him home! In each level you collect a key and get to a door to make it out. There are ten levels to guide Dizzy through before he can make it home. You can rotate the world in order to make it to hard to reach places.",
+    learnings: ["Unity", "Render targets"],
+    storeLinks: [
+      {
+        store: "gamejolt",
+        link: "http://gamejolt.com/games/puzzle/dizzy-s-world/31664/",
+      },
+    ],
+    links: [{ name: "GBJam3", link: "http://jams.gamejolt.io/gbjam3" }],
+    screenshots: ["dizzysworld.png"],
+    videos: [
+      {
+        caption: "Dizzy's World gameplay",
+        link: "https://youtu.be/nd3QCeeZ4oc?t=348",
+      },
+    ],
+    awards: ["84th out of 248 entries in GBJam3"],
+  },
+  {
+    title: "Holy Split!",
+    year: 2013,
+    platforms: "PC",
+    description:
+      'Holy Split! is a game about a robot astronaut with a color based plasma rifle. Colored alien blobs are attacking you and you must shoot them with their own color to kill them. You only have red, blue, and yellow to shoot with. Shooting blobs of the secondary colors green, orange, and purple with one of the primary colors that go into them will split them into two primary aliens. Hitting any alien with a color not used to make it will cause it to split in two. Each color alien has a different AI that will try to trick you. Oh and they multiply over time if you leave them alone so watch out! Made for Wolverine Soft\'s 48 hour game competition with the theme "Separate".',
+    learnings: ["Leading a team in a game jam"],
+    storeLinks: [
+      {
+        store: "download",
+        link: "https://www.dropbox.com/s/lubcoebptvdlt81/HolySplit.zip?dl=0",
+      },
+    ],
+    screenshots: ["holysplit.png"],
+    awards: ["3rd place out of 20 entries"],
+  },
+  {
+    title: "Lazer Eyez",
+    year: 2012,
+    platforms: "PC",
+    description:
+      "Lazer Eyez was made as a school project using the Microsoft Kinect to help children with Autism. Some autistic people have trouble maintaining eye contact and the game tracked head and eye movement as the main input to help alleviate that. In the game you are a super hero saving the world from alien invaders. You use your laser vision to shoot down their ships and stop them from destroying cities. While the game may not have helped like we initially wanted, it was a great experience to try to alleviate some effects of Autism.",
+    learnings: [
+      "3D modeling with Blender and working with 3D",
+      "Kinect integration",
+    ],
+    screenshots: ["lazereyez.png"],
+  },
+  {
+    title: "Blast Lords",
+    year: 2012,
+    platforms: "Unreleased",
+    description:
+      "last Lords was my first ambitious project that played like a platformer version of Bomberman. It was four player local multiplayer with controller support. Each player had a set amount of lives and would spawn on a stage with each other. There were all sorts of items that could spawn randomly in the level. Items that changed the player's number of bombs, firepower, speed, health both positive and negative could all be found. The game featured a level editor and four tilesets to choose from when making them. There were a handful of levels included.",
+    learnings: ["Platformer collisions and physics", "Local multiplayer"],
+    screenshots: ["blastlords.png"],
+  },
+  {
+    title: "Fired!",
+    year: 2012,
+    platforms: "PC",
+    description:
+      'Fired! is a game about sticking it to the man. This game was made for Wolverine Soft\'s 48 hour game competition with a theme of "The End".',
+    learnings: ["Movement that isn't tile based", "Collision detection", "XNA"],
+    screenshots: ["fired.png"],
+  },
+  {
+    title: "Sneak Thief",
+    year: 2011,
+    platforms: "PC and Linux",
+    description:
+      "Make your way through this puzzle game collecting the gem on each level and avoiding all the traps. There are four items that can be found in each level that will help you on your way. There are also power generators in each level that activate lights and lasers. Sneak Thief comes with 50 levels and a level editor so you can make and share levels with your friends.",
+    learnings: ["Animation using linear interpolation", "In-game level editor"],
+    storeLinks: [
+      {
+        store: "download",
+        link: "https://www.dropbox.com/s/gup0kvncgu1yngi/SneakThief.zip?dl=0",
+      },
+    ],
+    screenshots: ["sneakthief.png"],
+  },
+  {
+    title: "Blender",
+    year: 2011,
+    platforms: "PC and Linux",
+    description:
+      "Combine colored orbs to open doors in this perilous puzzle maze. Each colored orb opens it's corresponding colored door. The rainbow orbs allow you to combine your current colors to unlock new paths. This game was made for Wolverine Soft's 48 hour game competition with a theme of \"Combine\"",
+    learnings: [
+      "How to cut scope",
+      "Animation by swapping sprites",
+      "Keyboard and mouse input",
+    ],
+    storeLinks: [
+      {
+        store: "download",
+        link: "https://www.dropbox.com/s/jc0ubnk7oh2k3is/Blender.zip?dl=0",
+      },
+    ],
+    screenshots: ["blender.png"],
+    awards: ["3rd place out of 16 entries"],
+  },
+  {
+    title: "Lumberjack Zed Attack",
+    year: 2010,
+    platforms: "PC and Linux",
+    description:
+      "An arcade survival game about a burly lumberjack and his ax. The zombie apocalypse has finally reached the mountains where he lives and he must use his skills to survive. Zombies spawn from all corners of the screen and they can smell you. Use your trusty ax to cut down trees and lay traps using the wood. Rescue survivors along the way for bonus points! The zombies get faster over time so watch out!",
+    learnings: [
+      "Basic game input",
+      "Rendering to a screen",
+      "Game loop (input, update, draw)",
+      "Reading levels from a file",
+      "SDL",
+    ],
+    storeLinks: [
+      {
+        store: "download",
+        link:
+          "https://www.dropbox.com/s/bb5hsfo6mejna09/Lumberjack%20Zed%20Attack.zip?dl=0",
+      },
+    ],
+    screenshots: ["lumberjackzedattack.png"],
   },
 ];
 

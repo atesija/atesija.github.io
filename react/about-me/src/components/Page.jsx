@@ -2,6 +2,8 @@ import React from "react";
 import { Display } from "./Display";
 import { Game } from "./Game";
 import { games } from "../resources/games";
+import { Library } from "./Library";
+import { libraries } from "../resources/libraries";
 import { Clothes } from "./Clothes";
 import { clothes } from "../resources/clothes";
 import { SocialLinks } from "./SocialLinks";
@@ -15,6 +17,7 @@ import { ThemeProvider } from "@material-ui/styles";
 export const Page = styled(({ className, ...props }) => {
   const [state, setState] = React.useState({
     games: true,
+    libraries: true,
     art: true,
     food: true,
     clothes: true,
@@ -26,7 +29,6 @@ export const Page = styled(({ className, ...props }) => {
   };
 
   //Custom colors for the filters and each item
-
   return (
     <Box className={className} {...props}>
       <Box className="header">
@@ -86,6 +88,11 @@ export const Page = styled(({ className, ...props }) => {
               <Game game={game} />
             </Display>
           ))}
+        {libraries.map((library) => (
+          <Display>
+            <Library library={library} />
+          </Display>
+        ))}
         {state.clothes &&
           clothes.map((clothing) => (
             <Display>
