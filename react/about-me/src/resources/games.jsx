@@ -1,5 +1,13 @@
 export const games = [
   {
+    title: "Jump and Puzzle Friend Game",
+    year: 2021,
+    platforms: "In Development",
+    description:
+      "An asymmetrical cooperative puzzle platformer where one friend uses blocks to help their jumping friend reach the goal.",
+    screenshots: ["jumpandpuzzlefriendgame.gif"],
+  },
+  {
     title: "Stretch B4U Race",
     year: 2021,
     platforms: "PC",
