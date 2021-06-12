@@ -34,8 +34,47 @@ export const Page = styled(({ className, ...props }) => {
       <Box className="header">
         <Typography variant="h1">Anthony Tešija</Typography>
         <Typography variant="h5" gutterBottom>
-          Chef · Mixed Media Artist · Developer · Designer
+          Developer · Designer · Chef · Mixed Media Artist
         </Typography>
+      </Box>
+      <Box className="needsname">
+        <Box className="nav">
+          <Typography variant="body1" gutterBottom>
+            Games
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            Libraries
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            Food
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            Design
+          </Typography>
+
+          <SocialLinks />
+        </Box>
+        <Box className="content">
+          <Box className="everything">
+            {state.games &&
+              games.map((game) => (
+                <Display>
+                  <Game game={game} />
+                </Display>
+              ))}
+            {libraries.map((library) => (
+              <Display>
+                <Library library={library} />
+              </Display>
+            ))}
+            {state.clothes &&
+              clothes.map((clothing) => (
+                <Display>
+                  <Clothes clothing={clothing} />
+                </Display>
+              ))}
+          </Box>
+        </Box>
       </Box>
 
       <Box className="filters">
@@ -81,32 +120,25 @@ export const Page = styled(({ className, ...props }) => {
           //style={{ backgroundColor: "red" }}
         />
       </Box>
-      <Box className="everything">
-        {state.games &&
-          games.map((game) => (
-            <Display>
-              <Game game={game} />
-            </Display>
-          ))}
-        {libraries.map((library) => (
-          <Display>
-            <Library library={library} />
-          </Display>
-        ))}
-        {state.clothes &&
-          clothes.map((clothing) => (
-            <Display>
-              <Clothes clothing={clothing} />
-            </Display>
-          ))}
-      </Box>
-      <SocialLinks />
     </Box>
   );
 })`
   .header {
-    margin: auto;
-    text-align: center;
+    margin-left: 16px;
+    text-align: left;
+  }
+
+  .needsname {
+    display: flex;
+    width: 100%;
+  }
+
+  .nav {
+    width: 20%;
+  }
+
+  .content {
+    width: 80%;
   }
 
   .filter {
