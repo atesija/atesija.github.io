@@ -7,6 +7,7 @@ import { libraries } from "../resources/libraries";
 import { Clothes } from "./Clothes";
 import { clothes } from "../resources/clothes";
 import { SocialLinks } from "./SocialLinks";
+import { About } from "./About";
 import styled from "styled-components";
 import Box from "ui-box";
 import { Typography } from "@material-ui/core";
@@ -76,7 +77,9 @@ export const Page = styled(({ className, ...props }) => {
                   </Display>
                 ))}
               </Route>
-              <Route path="/"></Route>
+              <Route path="/">
+                <About />
+              </Route>
             </Switch>
           </Box>
         </Box>
