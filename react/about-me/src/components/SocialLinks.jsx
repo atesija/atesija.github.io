@@ -30,9 +30,13 @@ export const SocialLinks = styled(({ className, ...props }) => {
         image={Email}
         altText="Email me"
       />
+      <SocialLink
+        link="https://www.instagram.com/antontesh/"
+        image={Instagram}
+        altText="Link to my Itch.io"
+      />
     </Box>
   );
 })`
   display: flex;
-  justify-content: flex-end;
 `;

@@ -1,5 +1,19 @@
 export const games = [
   {
+    title: "Floating",
+    year: 2021,
+    platforms: "Web",
+    description: "Floating is an interaction presented without description",
+    learnings: ["Freya's Shapes library"],
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/floating",
+      },
+    ],
+    screenshots: ["floating.gif"],
+  },
+  {
     title: "Jump and Puzzle Friend Game",
     year: 2021,
     platforms: "In Development",
