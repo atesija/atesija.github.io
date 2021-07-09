@@ -12,6 +12,7 @@ import styled from "styled-components";
 import Box from "ui-box";
 import { Typography } from "@material-ui/core";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Face from "../images/face.gif";
 
 export const Page = styled(({ className, ...props }) => {
   return (
@@ -23,6 +24,7 @@ export const Page = styled(({ className, ...props }) => {
             Developer · Designer · Chef · Mixed Media Artist
           </Typography>
           <SocialLinks className="social" />
+          <img src={Face} alt={"A glitched face"} />
         </Box>
         <Box className="needsname">
           <Box className="nav">
@@ -34,6 +36,21 @@ export const Page = styled(({ className, ...props }) => {
             <Link to="/games">
               <Typography variant="body1" gutterBottom>
                 Games
+              </Typography>
+            </Link>
+            <Link to="/games">
+              <Typography className="subnavitem" variant="body1" gutterBottom>
+                Local Multiplayer
+              </Typography>
+            </Link>
+            <Link to="/games">
+              <Typography className="subnavitem" variant="body1" gutterBottom>
+                Mental Health
+              </Typography>
+            </Link>
+            <Link to="/games">
+              <Typography className="subnavitem" variant="body1" gutterBottom>
+                Art / Interaction
               </Typography>
             </Link>
             <Link to="/libraries">
@@ -100,6 +117,10 @@ export const Page = styled(({ className, ...props }) => {
   .nav {
     width: 20%;
     margin-left: 32px;
+  }
+
+  .subnavitem {
+    margin-left: 16px;
   }
 
   .content {

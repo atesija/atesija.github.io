@@ -12,6 +12,7 @@ export const games = [
       },
     ],
     screenshots: ["floating.gif"],
+    tags: ["art"],
   },
   {
     title: "Jump and Puzzle Friend Game",
@@ -20,6 +21,7 @@ export const games = [
     description:
       "An asymmetrical cooperative puzzle platformer where one friend uses blocks to help their jumping friend reach the goal.",
     screenshots: ["jumpandpuzzlefriendgame.gif"],
+    tags: ["multiplayer"],
   },
   {
     title: "Stretch B4U Race",
@@ -41,12 +43,14 @@ export const games = [
         link: "https://youtu.be/8szWhOBX-0I",
       },
     ],
+    tags: ["multiplayer"],
   },
   {
     title: "Craving",
     year: 2021,
     platforms: "Web",
-    description: "Craving is an art game presented without description",
+    description:
+      "Craving is a horror interaction about the cycle of never being able to meet expectations",
     learnings: ["Carrying particle systems between scenes"],
     storeLinks: [
       {
@@ -55,6 +59,7 @@ export const games = [
       },
     ],
     screenshots: ["craving.gif"],
+    tags: ["art", "mentalhealth"],
   },
   {
     title: "GourMelee",
@@ -94,6 +99,7 @@ export const games = [
       },
     ],
     awards: ["Selected game at Indie Game Party at ACEN 2018"],
+    tags: ["multiplayer"],
   },
   {
     title: "Down to Fly",
@@ -111,6 +117,7 @@ export const games = [
       },
     ],
     screenshots: ["downtofly.gif"],
+    tags: ["multiplayer"],
   },
   {
     title: "Reflection",
@@ -137,6 +144,7 @@ export const games = [
       },
     ],
     screenshots: ["reflection.png"],
+    tags: ["mentalhealth"],
   },
   {
     title: "OddEyeSee",
@@ -158,6 +166,7 @@ export const games = [
         link: "https://youtu.be/vPX8kjx1i3Y",
       },
     ],
+    tags: ["multiplayer"],
   },
   {
     title: "Glitch Slap",
@@ -173,6 +182,7 @@ export const games = [
         link: "https://youtu.be/YQ3quxmn8IU",
       },
     ],
+    tags: ["multiplayer"],
   },
   {
     title: "Heart Hop",
@@ -200,6 +210,7 @@ export const games = [
     ],
     screenshots: ["hearthop.gif"],
     awards: ["First Place"],
+    tags: ["multiplayer"],
   },
   {
     title: "Boardgame",
@@ -209,6 +220,7 @@ export const games = [
       '"Boardgame" is a programming style game where you choose three moves hidden from your opponents and then reveal them in order. Players have the option to move one space, attack one space next to them, defend from attacks, and push a player one space away from them. The game is played on a six by six grid and placement of players and items is done using two dice to index into the board. Between rounds items will be randomly placed on the board, and then each dead player can place an item on the board.',
 
     screenshots: ["boardgame.jpg", "boardgame2.jpg"],
+    tags: ["multiplayer"],
   },
   {
     title: "Depersonalize Me",
@@ -244,6 +256,7 @@ export const games = [
         link: "https://youtu.be/yNNYt7it4EI",
       },
     ],
+    tags: ["mentalhealth"],
   },
   {
     title: "Sad Bunny Man",
@@ -293,6 +306,7 @@ export const games = [
       },
     ],
     awards: ["Second Place", "Crowd Favorite"],
+    tags: ["multiplayer"],
   },
   {
     title: "Eyeconic",
@@ -318,6 +332,7 @@ export const games = [
       'A fast paced, local, four player free for all where the losers evolve between rounds. Players have the basic ability to shoot and dash attack to kill each other. After each round the losers evolution is chosen based on how they battled, died, and many other factors just like natural selection would work (On a much faster time scale). Evolutions like exploding bullets, bouncing bullets, armor, spiky body, longer dash attack, and many others make up to eighteen possible evolutions that produce thousands of combinations. Will you be the one that will carry on the species? Natural Perfection was made with a team for a local two week long game jam with the theme of "Evolution".',
     learnings: ["Working with a team with different backgrounds"],
     screenshots: ["natrualperfection.gif"],
+    tags: ["multiplayer"],
   },
   {
     title: "Lost in Thought",
@@ -480,6 +495,7 @@ export const games = [
       "last Lords was my first ambitious project that played like a platformer version of Bomberman. It was four player local multiplayer with controller support. Each player had a set amount of lives and would spawn on a stage with each other. There were all sorts of items that could spawn randomly in the level. Items that changed the player's number of bombs, firepower, speed, health both positive and negative could all be found. The game featured a level editor and four tilesets to choose from when making them. There were a handful of levels included.",
     learnings: ["Platformer collisions and physics", "Local multiplayer"],
     screenshots: ["blastlords.png"],
+    tags: ["multiplayer"],
   },
   {
     title: "Fired!",
@@ -575,5 +591,6 @@ export const games = [
       },
     ],
     awards: ["",],
+    tags: [""],
   },
 */
