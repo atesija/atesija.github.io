@@ -28,59 +28,99 @@ const StoreMap = {
 export const Game = styled(({ className, game, ...props }) => {
   return (
     <Box className={className} {...props}>
-      <Typography variant="h6" gutterBottom>
-        {game.title}
-      </Typography>
+      <Typography variant="h6">{game.title}</Typography>
       <Typography variant="caption" gutterBottom>
         {game.year} - {game.platforms}
       </Typography>
-      <Typography variant="body1" gutterBottom>
-        {game.description}
-      </Typography>
-      {game.screenshots &&
-        game.screenshots.map((image) => (
-          <Zoom>
-            <img
-              className="screenshotImage"
-              src={process.env.PUBLIC_URL + "/images/games/" + image}
-            />
-          </Zoom>
-        ))}
-      {game.videos &&
-        game.videos.map((video) => (
-          <>
-            <ReactPlayer
-              className="gameVideo"
-              url={video.link}
-              controls={true}
-              width="180px"
-              height="100px"
-            />
-            <Typography variant="caption" gutterBottom>
-              {video.caption}
-            </Typography>
-          </>
-        ))}
-      {game.links &&
-        game.links.map((link) => (
+      <Box className="imagedescription">
+        <Box>
+          {game.screenshots &&
+            game.screenshots.map((image) => (
+              <Zoom>
+                <img
+                  className="screenshotImage"
+                  src={process.env.PUBLIC_URL + "/images/games/" + image}
+                />
+              </Zoom>
+            ))}
+        </Box>
+        <Box className="description">
           <Typography variant="body1" gutterBottom>
-            <Link href={link.link}>{link.name}</Link>
+            {game.description}
           </Typography>
-        ))}
-      {game.storeLinks &&
-        game.storeLinks.map((storeLink) => (
-          <Link href={storeLink.link}>
-            <img className="gameStoreLink" src={StoreMap[storeLink.store]} />
-          </Link>
-        ))}
+          {game.links &&
+            game.links.map((link) => (
+              <Typography variant="body1" gutterBottom>
+                <Link href={link.link}>{link.name}</Link>
+              </Typography>
+            ))}
+        </Box>
+      </Box>
+      <Box className="videos">
+        {game.videos &&
+          game.videos.map((video) => (
+            <Box className="video">
+              <ReactPlayer
+                className="gameVideo"
+                url={video.link}
+                controls={true}
+                width="180px"
+                height="100px"
+              />
+              <Typography variant="caption" gutterBottom>
+                {video.caption}
+              </Typography>
+            </Box>
+          ))}
+      </Box>
+      <Box className="links">
+        {game.storeLinks &&
+          game.storeLinks.map((storeLink) => (
+            <Box className="link">
+              <Link href={storeLink.link}>
+                <img
+                  className="gameStoreLink"
+                  src={StoreMap[storeLink.store]}
+                />
+              </Link>
+            </Box>
+          ))}
+      </Box>
     </Box>
   );
 })`
   .screenshotImage {
     width: 200px;
+    margin-bottom: 8px;
   }
 
   .gameStoreLink {
-    width: 100px;
+    width: 140px;
+  }
+
+  .imagedescription {
+    display: flex;
+    margin-top: 8px;
+  }
+
+  .videos {
+    display: flex;
+    margin: 8px;
+  }
+
+  .video {
+    margin-right: 8px;
+  }
+
+  .description {
+    margin-left: 8px;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .link {
+    margin-right: 8px;
   }
 `;

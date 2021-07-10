@@ -80,7 +80,7 @@ export const games = [
     year: 2019,
     platforms: "PC",
     description:
-      "GourMelee is a 2-8 player local multiplayer party game where friends share controllers with their teammates to become the best chef in the kitchen!",
+      "Chop, sear, and eat your way through a collection of organic minigames in GourMelee! Play with two to eight players in this local multiplayer party game where you share your controller with a friend to dominate the kitchen. Every minigame is made with cooperation in mind. Each player holds half of the controller working together with their other half to become the best chef in the kitchen! GourMelee is the perfect snack at a party, bust it out with the chips and dip!",
     learnings: [
       "ScriptableObjects in Unity",
       "Building game systems around ScriptableObjects",
