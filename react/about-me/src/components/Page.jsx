@@ -26,12 +26,12 @@ export const Page = styled(({ className, ...props }) => {
               <Typography variant="h5" gutterBottom>
                 Developer · Designer · Chef · Mixed Media Artist
               </Typography>
+              <SocialLinks className="social" />
             </Box>
           </Box>
         </Box>
         <Box className="needsname">
           <Box className="nav">
-            <SocialLinks className="social" />
             <Link to="/">
               <Typography variant="body1" gutterBottom>
                 About & Current Work
@@ -159,8 +159,8 @@ export const Page = styled(({ className, ...props }) => {
   }
 
   .nav {
-    width: 20%;
     margin-left: 32px;
+    margin-right: 32px;
   }
 
   .subnavitem {
@@ -172,5 +172,6 @@ export const Page = styled(({ className, ...props }) => {
   }
 
   .social {
+    margin-bottom: 16px;
   }
 `;
