@@ -11,7 +11,7 @@ export const SocialLink = styled(
   }
 )`
   .social-image {
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
   }
 `;
