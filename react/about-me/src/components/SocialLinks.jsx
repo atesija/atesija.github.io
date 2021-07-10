@@ -6,6 +6,7 @@ import Email from "../images/social/email.png";
 import Github from "../images/social/github.png";
 import Instagram from "../images/social/instagram.png";
 import Twitter from "../images/social/twitter.png";
+import Itchio from "../images/social/itchio.png";
 
 export const SocialLinks = styled(({ className, ...props }) => {
   return (
@@ -21,6 +22,11 @@ export const SocialLinks = styled(({ className, ...props }) => {
         altText="Link to my Twitter"
       />
       <SocialLink
+        link="https://antontesh.itch.io/"
+        image={Itchio}
+        altText="Link to my Itch.io"
+      />
+      <SocialLink
         link="https://github.com/atesija"
         image={Github}
         altText="Link to my Github"
@@ -29,11 +35,6 @@ export const SocialLinks = styled(({ className, ...props }) => {
         link="mailto:antesija@gmail.com"
         image={Email}
         altText="Email me"
-      />
-      <SocialLink
-        link="https://www.instagram.com/antontesh/"
-        image={Instagram}
-        altText="Link to my Itch.io"
       />
     </Box>
   );

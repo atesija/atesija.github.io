@@ -4,6 +4,8 @@ import Box from "ui-box";
 import { Typography } from "@material-ui/core";
 import { Link } from "@material-ui/core";
 import ReactPlayer from "react-player";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 import Android from "../images/gamestores/android.png";
 import Download from "../images/gamestores/download.png";
@@ -37,10 +39,12 @@ export const Game = styled(({ className, game, ...props }) => {
       </Typography>
       {game.screenshots &&
         game.screenshots.map((image) => (
-          <img
-            className="screenshotImage"
-            src={process.env.PUBLIC_URL + "/images/games/" + image}
-          />
+          <Zoom>
+            <img
+              className="screenshotImage"
+              src={process.env.PUBLIC_URL + "/images/games/" + image}
+            />
+          </Zoom>
         ))}
       {game.videos &&
         game.videos.map((video) => (

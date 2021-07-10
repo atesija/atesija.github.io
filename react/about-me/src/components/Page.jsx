@@ -19,12 +19,15 @@ export const Page = styled(({ className, ...props }) => {
     <Router>
       <Box className={className} {...props}>
         <Box className="header">
-          <Typography variant="h1">Anthony Tešija</Typography>
-          <Typography variant="h5" gutterBottom>
-            Developer · Designer · Chef · Mixed Media Artist
-          </Typography>
-          <SocialLinks className="social" />
-          <img src={Face} alt={"A glitched face"} />
+          <Box className="nameface">
+            <img className="face" src={Face} alt={"A glitched face"} />
+            <Box>
+              <Typography variant="h1">Anthony Tešija</Typography>
+              <Typography variant="h5" gutterBottom>
+                Developer · Designer · Chef · Mixed Media Artist
+              </Typography>
+            </Box>
+          </Box>
         </Box>
         <Box className="needsname">
           <Box className="nav">
@@ -68,6 +71,7 @@ export const Page = styled(({ className, ...props }) => {
                 Art
               </Typography>
             </Link>
+            <SocialLinks className="social" />
           </Box>
 
           <Box className="content">
@@ -107,6 +111,14 @@ export const Page = styled(({ className, ...props }) => {
   .header {
     margin-left: 16px;
     text-align: left;
+  }
+
+  .face {
+    object-fit: contain;
+  }
+
+  .nameface {
+    display: flex;
   }
 
   .needsname {
