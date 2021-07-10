@@ -1,5 +1,19 @@
 export const games = [
   {
+    title: "Good Enough?",
+    year: 2021,
+    platforms: "Web",
+    description: "An interaction about external pressure and personal choices",
+    storeLinks: [
+      {
+        store: "itchio",
+        link: "https://antontesh.itch.io/good-enough",
+      },
+    ],
+    screenshots: ["goodenough.gif"],
+    tags: ["art", "mentalhealth"],
+  },
+  {
     title: "Floating",
     year: 2021,
     platforms: "Web",
