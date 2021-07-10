@@ -31,6 +31,7 @@ export const Page = styled(({ className, ...props }) => {
         </Box>
         <Box className="needsname">
           <Box className="nav">
+            <SocialLinks className="social" />
             <Link to="/">
               <Typography variant="body1" gutterBottom>
                 About & Current Work
@@ -41,17 +42,17 @@ export const Page = styled(({ className, ...props }) => {
                 Games
               </Typography>
             </Link>
-            <Link to="/games">
+            <Link to="/games/localmultiplayer">
               <Typography className="subnavitem" variant="body1" gutterBottom>
                 Local Multiplayer
               </Typography>
             </Link>
-            <Link to="/games">
+            <Link to="/games/mentalhealth">
               <Typography className="subnavitem" variant="body1" gutterBottom>
                 Mental Health
               </Typography>
             </Link>
-            <Link to="/games">
+            <Link to="/games/art">
               <Typography className="subnavitem" variant="body1" gutterBottom>
                 Art / Interaction
               </Typography>
@@ -71,11 +72,42 @@ export const Page = styled(({ className, ...props }) => {
                 Art
               </Typography>
             </Link>
-            <SocialLinks className="social" />
+            <Link to="/influence">
+              <Typography variant="body1" gutterBottom>
+                Influence
+              </Typography>
+            </Link>
           </Box>
 
           <Box className="content">
             <Switch>
+              <Route path="/games/localmultiplayer">
+                {games
+                  .filter((game) => game?.tags?.includes("multiplayer"))
+                  .map((game) => (
+                    <Display>
+                      <Game game={game} />
+                    </Display>
+                  ))}
+              </Route>
+              <Route path="/games/mentalhealth">
+                {games
+                  .filter((game) => game?.tags?.includes("mentalhealth"))
+                  .map((game) => (
+                    <Display>
+                      <Game game={game} />
+                    </Display>
+                  ))}
+              </Route>
+              <Route path="/games/art">
+                {games
+                  .filter((game) => game?.tags?.includes("art"))
+                  .map((game) => (
+                    <Display>
+                      <Game game={game} />
+                    </Display>
+                  ))}
+              </Route>
               <Route path="/games">
                 {games.map((game) => (
                   <Display>
@@ -140,6 +172,5 @@ export const Page = styled(({ className, ...props }) => {
   }
 
   .social {
-    margin-left: 16px;
   }
 `;
