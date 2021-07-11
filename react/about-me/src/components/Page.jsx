@@ -151,6 +151,7 @@ export const Page = styled(({ className, ...props }) => {
 
   .nameface {
     display: flex;
+    margin-bottom: 32px;
   }
 
   .needsname {
